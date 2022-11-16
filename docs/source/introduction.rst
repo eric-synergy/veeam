@@ -1,7 +1,7 @@
 Usage
 =====
 
-.. image:: ./image/image01.png
+.. image:: images/image01.png
 
 .. _installation:
 
