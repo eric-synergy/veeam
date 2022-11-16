@@ -1,5 +1,5 @@
 Lab Design
-===
+======
 
 .. autosummary::
    :toctree: generated

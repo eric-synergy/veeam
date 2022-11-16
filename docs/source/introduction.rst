@@ -1,4 +1,4 @@
-Usage
+Introduction
 =====
 
 .. image:: images/image01.png
