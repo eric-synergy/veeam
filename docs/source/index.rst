@@ -9,10 +9,10 @@ Welcome to Veeam's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-introduction
-labdesign
-labdemo
-feature
+   introduction
+   labdesign
+   labdemo
+   feature
 
 
 Indices and tables
