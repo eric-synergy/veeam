@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'Veeam'
-copyright = '2022, Eric W'
+copyright = str(date.today().year) + ", Eric W. All rights reserved."
 author = 'Eric W'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0'
 
 # -- General configuration
 
@@ -17,19 +17,26 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "sphinxemoji.sphinxemoji", 
+    "sphinx_contributors", 
+    "sphinx_copybutton"
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-intersphinx_disabled_domains = ['std']
+sphinxemoji_style = 'twemoji'
 
-#templates_path = ['_templates']
+# intersphinx_mapping = {
+#     'python': ('https://docs.python.org/3/', None),
+#     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+# }
+# intersphinx_disabled_domains = ['std']
 
+templates_path = ['_templates']
+
+exclude_patterns = []
 # -- Options for HTML output
 
 #html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+
