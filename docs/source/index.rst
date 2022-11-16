@@ -17,7 +17,8 @@ Contents
 --------
 
 .. toctree::
-
+   :maxdepth: 1
+   
    introduction
    labdesign
    labdemo
