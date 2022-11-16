@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Veeam'
-copyright = str(date.today().year) + ", Eric W. All rights reserved."
+copyright = "2022 Eric W. All rights reserved."
 author = 'Eric W'
 
 release = '1.0'
