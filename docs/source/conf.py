@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Veeam'
+copyright = '2022, Eric W'
+author = 'Eric W'
 
 release = '0.1'
 version = '0.1.0'
