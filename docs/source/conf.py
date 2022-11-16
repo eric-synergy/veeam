@@ -35,6 +35,13 @@ templates_path = ['_templates']
 exclude_patterns = []
 # -- Options for HTML output
 
+html_title = "V Demo"
+html_theme_options = {}
+html_theme_options["announcement"] = (
+        " Welcome to V Lab "
+
+)
+
 #html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
