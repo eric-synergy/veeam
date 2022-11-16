@@ -20,4 +20,4 @@ Contents
 
    introduction
    labdesign
-   filelevelrestore
+   labdemo
