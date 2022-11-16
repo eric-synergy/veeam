@@ -19,4 +19,5 @@ Contents
 .. toctree::
 
    introduction
-   lab
+   labdesign
+   filelevelrestore
