@@ -23,6 +23,7 @@ Veeam Product
 
 *Veeam Backup & Replication*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 .. image:: images/vbr.png 
     :alt: Left floating image
     :target: https://www.veeam.com/vm-backup-recovery-replication-software.html
@@ -32,8 +33,10 @@ Initially a product for VM protection, now central  management & protection plac
 
 .. rst-class:: clear-both
 
+
 *Veeam One*
 ^^^^^^^^^^^
+
 .. image:: images/veeamone.png 
     :alt: Left floating image
     :target: https://www.veeam.com/virtualization-management-one-solution.html
@@ -41,4 +44,14 @@ Initially a product for VM protection, now central  management & protection plac
 
 Deliver deep, intelligent monitoring, reporting and automation through interactive tools and intelligent learning, identifying
 
+.. rst-class:: clear-both
 
+*Veeam Backup for Public Cloud*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/vbpublic.png 
+    :alt: Left floating image
+    :target: https://www.veeam.com/cloud-backup-solutions.html
+    :class: with-shadow float-left
+
+Cloud-native, web-based console for AWS/Azure,  available via Marketplace
