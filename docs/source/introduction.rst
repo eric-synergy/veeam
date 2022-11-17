@@ -30,7 +30,7 @@ Veeam Product
     :class: with-shadow float-left
     :scale: 60    
 
-Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services.
+| Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services.
 
 .. image:: images/vbr01.png 
 .. rst-class:: clear-both
@@ -45,7 +45,7 @@ Initially a product for VM protection, now central  management & protection plac
     :class: with-shadow float-left
 
 
-Deliver deep, intelligent monitoring, reporting and automation through interactive tools and intelligent learning, identifying.
+| Deliver deep, intelligent monitoring, reporting and automation through interactive tools and intelligent learning, identifying.
 
 .. image:: images/veeamone01.png 
 .. rst-class:: clear-both
@@ -59,7 +59,7 @@ Deliver deep, intelligent monitoring, reporting and automation through interacti
     :class: with-shadow float-left
     :scale: 60   
 
-Cloud-native, web-based console for AWS/Azure,  available via Marketplace.
+| Cloud-native, web-based console for AWS/Azure,  available via Marketplace.
 
 .. image:: images/vbpublic01.png 
 
@@ -73,7 +73,7 @@ Cloud-native, web-based console for AWS/Azure,  available via Marketplace.
     :class: with-shadow float-left 
     :scale: 60   
 
-A disaster recovery solution should be easy to configure, and easy to use.
+| A disaster recovery solution should be easy to configure, and easy to use.
 
 .. image:: images/vdro01.png 
 
@@ -85,7 +85,7 @@ A disaster recovery solution should be easy to configure, and easy to use.
     :target: https://www.veeam.com/backup-microsoft-office-365.html
     :class: with-shadow float-left 
 
-Retrieve Office 365 Exchange Online, SharePoint Online, OneDrive and Teams for Business data from a cloud-based instance of Office 365.
+| Retrieve Office 365 Exchange Online, SharePoint Online, OneDrive and Teams for Business data from a cloud-based instance of Office 365.
 
 .. image:: images/vbo01.png 
 
@@ -97,7 +97,7 @@ Retrieve Office 365 Exchange Online, SharePoint Online, OneDrive and Teams for B
     :target: https://www.veeam.com/service-provider-availability-console.html
     :class: with-shadow float-left 
 
-Cloud-enabled platform for Veeam Cloud & Service Providers (VCSP) partners and distributed enterprise environments to deliver expert-built and managed Backup as a Service (BaaS) and Disaster Recovery as a Service (DRaaS).
+| Cloud-enabled platform for Veeam Cloud & Service Providers (VCSP) partners and distributed enterprise environments to deliver expert-built and managed Backup as a Service (BaaS) and Disaster Recovery as a Service (DRaaS).
 
 .. image:: images/vspc01.png 
 
@@ -109,7 +109,7 @@ Cloud-enabled platform for Veeam Cloud & Service Providers (VCSP) partners and d
     :target: https://www.veeam.com/kubernetes-native-backup-and-restore.html
     :class: with-shadow float-left 
     :scale: 60   
-Protect Your Fleet of Kubernetes Deployments with Multi-Cluster Support and Retain Control of and Access to Your Data.
+| Protect Your Fleet of Kubernetes Deployments with Multi-Cluster Support and Retain Control of and Access to Your Data.
 
 .. image:: images/k1001.png 
     :alt: Left floating image
