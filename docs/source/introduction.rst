@@ -28,9 +28,9 @@ Veeam Product
     :target: https://www.veeam.com/vm-backup-recovery-replication-software.html
     :class: with-shadow float-left
 
-Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
+Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services.
 
-..  rst-class:: clear-both
+.. rst-class:: clear-both
 
 *Veeam One*
 ^^^^^^^^^^^
