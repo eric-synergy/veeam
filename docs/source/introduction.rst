@@ -57,6 +57,7 @@ Deliver deep, intelligent monitoring, reporting and automation through interacti
     :alt: Left floating image
     :target: https://www.veeam.com/cloud-backup-solutions.html
     :class: with-shadow float-left
+    :scale: 50   
 
 Cloud-native, web-based console for AWS/Azure,  available via Marketplace
 
