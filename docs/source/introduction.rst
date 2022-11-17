@@ -23,7 +23,10 @@ Veeam Product
 
 Veeam Backup & Replication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. image:: images/vbr.png   
-    :alt: Left floating image
-    :class: with-shadow float-left
+.. figure:: images/vbr.png 
+   :scale: 100%
+   :alt: vbr
+   :align: left
+   :target: path
+ 
     Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
