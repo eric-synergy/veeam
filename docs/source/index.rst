@@ -12,6 +12,7 @@ Veeam documentation master file, created by sphinx-quickstart on Wed Nov 16 15:3
    :maxdepth: 2
 
    introduction
+   backupconcept
    labdesign
    labdemo
    feature
