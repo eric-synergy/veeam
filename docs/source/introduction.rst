@@ -71,7 +71,8 @@ Cloud-native, web-based console for AWS/Azure,  available via Marketplace.
     :alt: Left floating image
     :target: https://www.veeam.com/disaster-recovery-orchestrator.html
     :class: with-shadow float-left 
-
+    :scale: 60   
+    
 A disaster recovery solution should be easy to configure, and easy to use.
 
 .. image:: images/vdro01.png 
@@ -107,7 +108,7 @@ Cloud-enabled platform for Veeam Cloud & Service Providers (VCSP) partners and d
     :alt: Left floating image
     :target: https://www.veeam.com/service-provider-availability-console.html
     :class: with-shadow float-left 
-
+    :scale: 60   
 Protect Your Fleet of Kubernetes Deployments with Multi-Cluster Support and Retain Control of and Access to Your Data.
 
 .. image:: images/k1001.png 
