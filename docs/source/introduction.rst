@@ -22,6 +22,10 @@ To be the most trusted provider of backup, recovery and data management solution
 
 
 V Product 
-----------------
+----------
+Veeam Backup & Replication
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: images/vbr.png
+
 
 
