@@ -30,6 +30,8 @@ Veeam Product
 
 Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
 
+..  rst-class:: clear-both
+
 *Veeam One*
 ^^^^^^^^^^^
 .. image:: images/veeamone.png 
