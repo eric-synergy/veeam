@@ -1,36 +1,20 @@
 Introduction
 =====
 
-.. image:: images/image01.png
+.. image:: images/veeambanner.png
 
-.. _installation:
 
-Installation
-------------
+V Company's Overview
+--------------------
+Veeam Software is a privately held, U.S. information technology company with a U.S. based leadership team.
 
-To use Lumache, first install it using pip:
+Founded in 2006, we focused on simplifying backups for virtual machines. We quickly became the industry leader. Veeam continues to charge forward to innovate the industry so you can own, control and protect your data anywhere in the hybrid cloud.
 
-.. code-block:: console
+In March 2020, Veeam was acquired by Insight Partners which has enable us to expand into new markets and continue our growth trajectory.
 
-   (.venv) $ pip install lumache
 
-Creating recipes
+
+V Product 
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
