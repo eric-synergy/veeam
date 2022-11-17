@@ -25,7 +25,8 @@ V Product
 ----------
 Veeam Backup & Replication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. image:: images/vbr.png
+|vbr| Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
+.. |vbr| image:: images/vbr.png
 
 
 
