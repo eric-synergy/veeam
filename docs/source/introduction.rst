@@ -14,7 +14,7 @@ Veeam Company's Overview
 .. figure:: images/gartner.png
 
 Veeam Vision
-^^^^^^^^^^^^
+------------
 
 To be the most trusted provider of backup, recovery and data management solutions that deliver Modern Data Protection.
 
@@ -26,4 +26,4 @@ Veeam Backup & Replication
 .. image:: images/vbr.png   
     :alt: Left floating image
     :class: with-shadow float-left
-     Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
+    Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
