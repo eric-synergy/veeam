@@ -60,15 +60,3 @@ Deliver deep, intelligent monitoring, reporting and automation through interacti
 Cloud-native, web-based console for AWS/Azure,  available via Marketplace
 
 .. image:: images/vbpublic01.png 
-
-*Veeam Backup for Public Cloud*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. image:: images/vbpublic.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/cloud-backup-solutions.html
-    :class: with-shadow float-left
-
-Cloud-native, web-based console for AWS/Azure,  available via Marketplace
-
-.. image:: images/vbpublic01.png 
