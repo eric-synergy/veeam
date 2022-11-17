@@ -28,6 +28,7 @@ Veeam Product
     :alt: Left floating image
     :target: https://www.veeam.com/vm-backup-recovery-replication-software.html
     :class: with-shadow float-left
+    :scale: 50    
 
 Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services.
 
@@ -42,7 +43,7 @@ Initially a product for VM protection, now central  management & protection plac
     :alt: Left floating image
     :target: https://www.veeam.com/virtualization-management-one-solution.html
     :class: with-shadow float-left
-    :scale: 50
+
 
 Deliver deep, intelligent monitoring, reporting and automation through interactive tools and intelligent learning, identifying
 
