@@ -25,5 +25,8 @@ V Product
 ----------
 Veeam Backup & Replication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. image:: images/vbr.png Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
-
+.. image:: images/vbr.png 
+    :alt: Left floating image
+    :target: https://typo3.org
+    :class: with-shadow float-left
+Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
