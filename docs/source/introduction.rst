@@ -1,11 +1,7 @@
-Introduction
-============
+Veeam Company's Overview
+========================
 
 .. image:: images/veeambanner.png
-
-
-Veeam Company's Overview
-------------------------
 
 * Veeam Software is a privately held, U.S. information technology company with a U.S. based leadership team.
 
@@ -15,20 +11,19 @@ Veeam Company's Overview
 
 * Veeam named a Leader for the 6th time!
 
-.. image:: images/gartner.png
+.. figure:: images/gartner.png
 
 Veeam Vision
 ^^^^^^^^^^^^
 
 To be the most trusted provider of backup, recovery and data management solutions that deliver Modern Data Protection.
 
-
 Veeam Product 
 --------------
 
 Veeam Backup & Replication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. figure:: images/vbr.png   
+.. image:: images/vbr.png   
     :alt: Left floating image
     :class: with-shadow float-left
      Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services

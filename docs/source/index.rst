@@ -6,7 +6,6 @@
 Welcome to Veeam's documentation!
 =================================
 
-Veeam documentation master file, created by sphinx-quickstart on Wed Nov 16 15:38:29 2022.
 
 .. toctree::
    :maxdepth: 2
