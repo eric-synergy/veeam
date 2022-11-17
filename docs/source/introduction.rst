@@ -21,12 +21,15 @@ To be the most trusted provider of backup, recovery and data management solution
 Veeam Product 
 --------------
 
-Veeam Backup & Replication
+**Veeam Backup & Replication**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. figure:: images/vbr.png 
-   :scale: 100%
-   :alt: vbr
-   :align: left
-   :target: path
- 
-    Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
+.. image:: images/vbr.png 
+    :alt: Left floating image
+    :target: https://typo3.org
+    :class: with-shadow float-left
+
+Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services
+
+..  rst-class::  clear-both
+
+
