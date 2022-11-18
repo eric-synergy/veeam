@@ -7,9 +7,7 @@ Welcome to Veeam's documentation!
 =================================
 .. raw:: html
 
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://youtu.be/QFx6ScEP28I"
-  frameborder="0"></iframe>
+   <iframe id="ytplayer" type="text/html" width="640" height="360" src="https://youtu.be/QFx6ScEP28I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .. toctree::
    :maxdepth: 2
