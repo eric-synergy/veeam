@@ -20,20 +20,25 @@ Step-By-Step
 
 3. In the working area, right-click tinyLinux and select VeeamZIP…
 
-4. In the open window in the Destination section, review a location to which you want to store the VeeamZIP file.
+.. image:: ../images/lab01/lab01_02.png
+
+4. In the open window in the Destination section, review a location *(eg. VeeamRepo02-ReFS)* to which you want to store the VeeamZIP file. 
    
    Use the Delete this backup automatically list to specify retention settings for the created VeeamZIP file. 
 Select 'in 1 week' from the drop-down list.
 
    By default, VeeamZIP files are not removed but are kept in the specified location for an indefinite period of time.
 
+.. image:: ../images/lab01/lab01_03.png
+
 5. To review additional options for the VeeamZIP file, click More.
 
    As we did not select a password, Veeam Backup & Replication will produce an unencrypted VeeamZIP file. By default, Veeam Backup & Replication uses application-aware image processing to create a transactionally consistent backup of VMs running applications with VSS support. If you were backing up VMs that run something other than Windows OS or applications without VSS support, you could disable this option by clearing Disable guest quiescence checkbox
 
-.. image:: ../images/lab01/lab01_01.png
+.. image:: ../images/lab01/lab01_04.png
 
 6. Click OK. The VeeamZIP job will start immediately.
    
    You can click Show Details to view the status of the VeeamZIP job. You may also click OK and continue with the labs. To monitor job progress, navigate to the Backup & Replication section, choose Last 24 hours, and then click Running
 
+.. image:: ../images/lab01/lab01_05.png
