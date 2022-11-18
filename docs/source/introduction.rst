@@ -116,3 +116,9 @@ Protect Your Fleet of Kubernetes Deployments with Multi-Cluster Support and Reta
     :target: https://www.veeam.com/kubernetes-native-backup-and-restore.html
     :class: with-shadow float-left 
     :scale: 50   
+
+
+Testing |button| button
+
+.. |button| image:: images/k10.png
+            :scale: 50%
