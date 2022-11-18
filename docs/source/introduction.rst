@@ -1,4 +1,4 @@
-Veeam Company's Overview
+Veeam's Overview
 ========================
 
 .. image:: images/veeambanner.png
@@ -13,7 +13,7 @@ Veeam Company's Overview
 
 .. image:: images/gartner.png
 
-Veeam Vision
+Veeam's Vision
 ------------
 
 To be the most trusted provider of backup, recovery and data management solutions that deliver Modern Data Protection.
@@ -46,7 +46,7 @@ Veeam Product
 
 .. rst-class:: clear-both
 
-*Veeam Backup for Public Cloud(AWS, GCP, AZURE)* 
+*Veeam Backup for Public Cloud(include AWS, GCP, AZURE)* 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   
 |vbpublic| Cloud-native, web-based console for AWS/Azure,  available via Marketplace.
