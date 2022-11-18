@@ -11,7 +11,8 @@ Welcome to Veeam's documentation!
 
 .. toctree::
    :maxdepth: 2
-
+   :numbered:
+   
    introduction
    backupconcept
    labdesign
