@@ -14,11 +14,11 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
+from datetime import date
 # -- Project information -----------------------------------------------------
 
 project = 'Veeam'
-copyright = '2022, Eric W'
+copyright = str(date.today().year) + ', Eric W'
 author = 'Eric W'
 
 # The full version, including alpha/beta/rc tags
@@ -48,6 +48,9 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+
+html_title = "Veeam Lab Demo"
+html_theme_options = {}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
