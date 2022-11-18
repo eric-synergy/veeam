@@ -23,16 +23,15 @@ Veeam Product
 
 *Veeam Backup & Replication (aka VBR)*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+|vbr| Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services.
 
-.. image:: images/vbr.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/vm-backup-recovery-replication-software.html
-    :class: with-shadow float-left
-    :scale: 60    
+.. |vbr| image:: images/vbr.png
+         :scale: 60
 
-Initially a product for VM protection, now central  management & protection place with built-in  agents and platform services.
 
 .. image:: images/vbr01.png 
+
 .. rst-class:: clear-both
 
 
