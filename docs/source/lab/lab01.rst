@@ -16,7 +16,7 @@ Step-By-Step
    
 2. In the infrastructure tree, choose VMware vSphere, vCenter Servers, vc.veeamdemo.local, Veeam Datacetner, VeeamCluster.
    
-.. image:: images/lab01/lab01_01.png
+.. image:: ../images/lab01/lab01_01.png
 
 3. In the working area, right-click tinyLinux and select VeeamZIP…
 
@@ -31,7 +31,7 @@ Select 'in 1 week' from the drop-down list.
 
    As we did not select a password, Veeam Backup & Replication will produce an unencrypted VeeamZIP file. By default, Veeam Backup & Replication uses application-aware image processing to create a transactionally consistent backup of VMs running applications with VSS support. If you were backing up VMs that run something other than Windows OS or applications without VSS support, you could disable this option by clearing Disable guest quiescence checkbox
 
-.. image:: images/lab01/lab01_01.png
+.. image:: ../images/lab01/lab01_01.png
 
 6. Click OK. The VeeamZIP job will start immediately.
    
