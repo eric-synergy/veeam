@@ -25,7 +25,8 @@ Step-By-Step
 4. In the open window in the Destination section, review a location *(eg. VeeamRepo02-ReFS)* to which you want to store the VeeamZIP file. 
    
    Use the Delete this backup automatically list to specify retention settings for the created VeeamZIP file. 
-Select 'in 1 week' from the drop-down list.
+   
+   Select 'in 1 week' from the drop-down list.
 
    By default, VeeamZIP files are not removed but are kept in the specified location for an indefinite period of time.
 
