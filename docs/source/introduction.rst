@@ -109,14 +109,10 @@ Cloud-enabled platform for Veeam Cloud & Service Providers (VCSP) partners and d
     :target: https://www.veeam.com/kubernetes-native-backup-and-restore.html
     :class: with-shadow float-left 
     :scale: 60   
+
 Protect Your Fleet of Kubernetes Deployments with Multi-Cluster Support and Retain Control of and Access to Your Data.
 
 .. image:: images/k1001.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/kubernetes-native-backup-and-restore.html
-    :class: with-shadow float-left 
-    :scale: 50   
-
 
 Testing |button| button
 
