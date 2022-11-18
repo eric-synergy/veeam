@@ -5,7 +5,9 @@
 
 Welcome to Veeam's documentation!
 =================================
-
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://youtu.be/QFx6ScEP28I"
+  frameborder="0"></iframe>
 
 .. toctree::
    :maxdepth: 2
