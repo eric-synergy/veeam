@@ -38,82 +38,67 @@ Veeam Product
 *Veeam One*
 ^^^^^^^^^^^
 
-.. image:: images/veeamone.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/virtualization-management-one-solution.html
-    :class: with-shadow float-left
+|veeamone| Deliver deep, intelligent monitoring, reporting and automation through interactive tools and intelligent learning, identifying.
 
-
-Deliver deep, intelligent monitoring, reporting and automation through interactive tools and intelligent learning, identifying.
+.. |veeamone| image:: images/veeamone.png
 
 .. image:: images/veeamone01.png 
+
 .. rst-class:: clear-both
 
 *Veeam Backup for Public Cloud(AWS, GCP, AZURE)* 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  
+|vbpublic| Cloud-native, web-based console for AWS/Azure,  available via Marketplace.
 
-.. image:: images/vbpublic.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/cloud-backup-solutions.html
-    :class: with-shadow float-left
-    :scale: 60   
-
-Cloud-native, web-based console for AWS/Azure,  available via Marketplace.
+.. |vbpublic| image:: images/vbpublic.png
 
 .. image:: images/vbpublic01.png 
 
+.. rst-class:: clear-both
 
 *Veeam Disaster Recovery Orchestrator(aka VDRO)*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/vbpublic.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/disaster-recovery-orchestrator.html
-    :class: with-shadow float-left 
-    :scale: 60   
+|vdro|A disaster recovery solution should be easy to configure, and easy to use.
 
-A disaster recovery solution should be easy to configure, and easy to use.
+.. |vdro| image:: images/vdro.png
+          :scale: 60
 
 .. image:: images/vdro01.png 
+
+.. rst-class:: clear-both
 
 *Veeam Backup for O365(aka VBO)*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/vbo.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/backup-microsoft-office-365.html
-    :class: with-shadow float-left 
+|vbo| Retrieve Office 365 Exchange Online, SharePoint Online, OneDrive and Teams for Business data from a cloud-based instance of Office 365.
 
-Retrieve Office 365 Exchange Online, SharePoint Online, OneDrive and Teams for Business data from a cloud-based instance of Office 365.
+.. |vbo| image:: images/vbo.png
 
-.. image:: images/vbo01.png 
+.. image:: images/vbo01.png
+
+.. rst-class:: clear-both 
 
 *Veeam Service Provider Console(aka VSPC)*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/vspc.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/service-provider-availability-console.html
-    :class: with-shadow float-left 
+|vspc| Cloud-enabled platform for Veeam Cloud & Service Providers (VCSP) partners and distributed enterprise environments to deliver expert-built and managed Backup as a Service (BaaS) and Disaster Recovery as a Service (DRaaS).
 
-Cloud-enabled platform for Veeam Cloud & Service Providers (VCSP) partners and distributed enterprise environments to deliver expert-built and managed Backup as a Service (BaaS) and Disaster Recovery as a Service (DRaaS).
+.. |vspc| image:: images/vspc.png 
 
 .. image:: images/vspc01.png 
+
+.. rst-class:: clear-both
 
 *Kasten K10(aka K10)*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/k10.png 
-    :alt: Left floating image
-    :target: https://www.veeam.com/kubernetes-native-backup-and-restore.html
-    :class: with-shadow float-left 
-    :scale: 60   
+|k10| Protect Your Fleet of Kubernetes Deployments with Multi-Cluster Support and Retain Control of and Access to Your Data.
 
-Protect Your Fleet of Kubernetes Deployments with Multi-Cluster Support and Retain Control of and Access to Your Data.
+.. |k10| image:: images/k10.png
+         :scale: 60
 
 .. image:: images/k1001.png 
 
-Testing |button| button
-
-.. |button| image:: images/k10.png
-            :scale: 50%
+.. rst-class:: clear-both
