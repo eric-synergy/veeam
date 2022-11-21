@@ -12,6 +12,8 @@ If Veeam Backup and Replication isn't already running, then double click the Vee
 Step-By-Step
 ------------
 
+Quickly create a point in time copy of one of your virtual machines using VeeamZIP.
+
 1. Open the Inventory view.
    
 2. In the infrastructure tree, choose VMware vSphere, vCenter Servers, vc.veeamdemo.local, Veeam Datacetner, VeeamCluster.
