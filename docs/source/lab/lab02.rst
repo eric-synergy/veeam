@@ -11,45 +11,54 @@ Create a backup job to protect some of the virtual machines used in the lab envi
 
 1. Click on HOME workspace, on menu bar, click Backup Job, Virtual Machine, Vmware vSphere
 
+.. image:: ../images/lab02/lab02_01.png
+
 2. At the first step of the wizard, enter Backup (your initials) as the Name. 
 Keep the default Description and click Next.
  
-
+.. image:: ../images/lab02/lab02_02.png
 
 3. Click Add… to browse the VI infrastructure to review the selection criteria and select
 Veeam-DC01 and Tiny-Veeam. Click Add and Next.
 
+.. image:: ../images/lab02/lab02_03.png
+
+.. image:: ../images/lab02/lab02_04.png
 
 4. Leave Automatic selection for Backup proxy.
+
 5. Confirm Main Backup Repository is selected as Backup repository in the drop down menu.
 
-
 6. Change the Restore points to keep on disk to 2. 
+
+.. image:: ../images/lab02/lab02_05.png
+
 7. Click Advanced to specify advanced options for the backup job.
+   
 8. Leave Incremental selected under Backup mode and click OK and Next.
-9. Do not enable synthetic or active full: This way the backup chain will be created in the Forever Forward incremental backup mode. 
    
-	
+9.  Do not enable synthetic or active full: This way the backup chain will be created in the Forever Forward incremental backup mode. 
    
-10 	 From the Guest OS Credentials dropdown box, choose the Domain Administrator (veeamlab\administrator).. 
-11 	Click on the "Applications" button.  Select Tiny-Veeam from the list and click Edit.
-12 	Select the Disable application processing radio button. Click OK. And then click OK again. 
-Tiny-Veeam is a linux VM so it does not have VSS framework on it, therefore we choose to disable application-aware image processing for this VM.
-13 
+.. image:: ../images/lab02/lab02_06.png	
+   
+10. From the Guest OS Credentials dropdown box, choose the Domain Administrator (veeamlab\administrator).. 
 
-	   Click Test Now and watch the test complete. Notice that Tiny-Veeam fails guest credentials. That's to be expected and is ok.  
+11. Click on the "Applications" button.  Select Tiny-Veeam from the list and click Edit.
+    
+12. Select the Disable application processing radio button. Click OK. And then click OK again. 
+    
+    Tiny-Veeam is a linux VM so it does not have VSS framework on it, therefore we choose to disable application-aware image processing for this VM.
 
-14 	  Click Close as the testing completes.
+13. Click Test Now and watch the test complete. Notice that Tiny-Veeam fails guest credentials. That's to be expected and is ok.  
 
-15 	  Click Next to proceed.
+14. Click Close as the testing completes.
 
-16 	   
-  Schedule this job to run daily. Click APPLY to proceed.
-  There is no option to schedule the automatic retry for jobs configured to start only manually. 
+15. Click Next to proceed.
 
+16. Schedule this job to run daily. Click APPLY to proceed.
+    There is no option to schedule the automatic retry for jobs configured to start only manually. 
 
-17 
-
-	 Click Finish
-18 	  Click Finish. Feel free to review the job by right clicking and selecting Edit. To keep the lab cleaned up for others, please delete your job when you’re done. 
+17. Click Finish
+    
+18. Click Finish. Feel free to review the job by right clicking and selecting Edit. To keep the lab cleaned up for others, please delete your job when you’re done. 
 
