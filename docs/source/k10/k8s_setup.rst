@@ -345,7 +345,10 @@ K8S Setup
 
     curl -s https://docs.kasten.io/tools/k10_primer.sh  | bash
 
-    ##deploy shopping website 
+20. deploy shopping website 
+
+.. code-block:: bash 
+    
     git clone https://github.com/microservices-demo/microservices-demo.git
     cd microservices-demo/deploy/kubernetes
     kubectl apply -f complete-demo.yaml
@@ -353,7 +356,7 @@ K8S Setup
     ## http://10.110.10.86:30001/
 
 
-20. check kasten io 
+21. check kasten io 
 
 .. code-block:: bash  
 
