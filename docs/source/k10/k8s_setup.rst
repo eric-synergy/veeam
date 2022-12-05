@@ -155,7 +155,8 @@ K8S Setup
     kubelet --version
     kubectl version
 
-2. Initizalize K8S cluster - do it on *master* node
+2. Initizalize K8S cluster - do it on **master** node
+   
 - --apiserver-advertise-address=master interface IP
 - --pod-network-cidr=your k8s pod network
 
@@ -164,20 +165,20 @@ K8S Setup
     sudo kubeadm init --apiserver-advertise-address=10.110.10.86  --pod-network-cidr=10.244.0.0/16 
 
 
-3. Check joining cluster command
+1. Check joining cluster command
 
 .. code-block:: bash
 
-    kubeadm token create --print-join-command
+    sudo kubeadm token create --print-join-command
 
-4. worker node join to cluster - do it on *worker* node
+4. worker node join to cluster - do it on **worker** node
 
 .. code-block:: bash
 
     sudo kubeadm join 10.110.10.86:6443 --token 3a5thm.2046hzjtm7mlnj2i \
             --discovery-token-ca-cert-hash sha256:8303a5d9d2b8e758f34a9bbd0d971b288974d4045af47caa45c0cef3f29d3f30 
 
-5. Setup kubectl ENV
+5. Setup kubectl ENV  - do it on **master** node
 
 .. code-block:: bash
 
@@ -348,7 +349,7 @@ K8S Setup
 20. deploy shopping website 
 
 .. code-block:: bash 
-    
+
     git clone https://github.com/microservices-demo/microservices-demo.git
     cd microservices-demo/deploy/kubernetes
     kubectl apply -f complete-demo.yaml
