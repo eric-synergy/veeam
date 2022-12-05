@@ -1,6 +1,20 @@
 K8S Setup
 =========
 
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+  
 Kubernetes is an open-source platform for managing containers such as Docker. Is a management system that provides a platform for deployment automation. With Kubernetes, you can freely make use of the hybrid, on-premise, and public cloud infrastructure to run deployment tasks of your project.
 
 And Docker lets you create containers for a pre-configured image and application. Kubernetes provides the next step, allowing you to balance loads between containers and run multiple containers across multiple systems.
@@ -13,7 +27,7 @@ Environment Setup
 Using Vagrant to build the K8S Environment. This setup includes 1 master node and 2 worker nodes. 1
 
 
-.. list-table:: K8S Host Settings
+.. list-table:: K8S_Host_Settings
    :widths: 25 25 50
    :header-rows: 1
 
@@ -41,7 +55,6 @@ Using Vagrant to build the K8S Environment. This setup includes 1 master node an
      - 4
      - 120G
      - generic/ubuntu2004
-
 
 Setting the ENV variables
 Before running vagrant , please add ENV variables first.
