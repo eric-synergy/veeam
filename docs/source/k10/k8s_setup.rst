@@ -41,6 +41,26 @@ Using Vagrant to build the K8S Environment. This setup includes 1 master node an
      - 120G
      - generic/ubuntu2004
 
+
+Setting the ENV variables
+Before running vagrant , please add ENV variables first.
+
+Create .profile file and run source .profile
+
+.profile:
+
+.. code-block:: bash
+
+    export ESXI_HOSTNAME="host ip address"
+    export ESXI_USERNAME="username"
+    export ESXI_PASSWORD="password"
+
+add ENV variables
+
+.. code-block:: bash
+
+    source ~/.profile
+
 Vagrantfile:
 
 .. code-block:: ruby
