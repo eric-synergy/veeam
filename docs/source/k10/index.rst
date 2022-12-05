@@ -1,14 +1,10 @@
 K10 Demo
 ========
 
-Channels allows you to use WebSockets and other non-HTTP protocols in your
-Django site. For example you might want to use WebSockets to allow a page on
-your site to immediately receive updates from your Django server without using
-HTTP long-polling or other expensive techniques.
+Purpose built for Kubernetes, Kasten K10 is a Cloud Native data management platform for Day 2 operations. It provides enterprise DevOps teams with an easy to use, scalable and secure system for backup/restore, disaster recovery and application mobility for Kubernetes applications. Kasten K10 integrates with relational and NoSQL databases, all major Kubernetes distributions, and runs in any cloud to maximize freedom of choice.​
 
-In this tutorial we will build a simple chat server, where you can join an
-online room, post messages to the room, and have others in the same room see
-those messages immediately.
+.. image:: images/k10/k10_01.png
+
 
 .. toctree::
    :maxdepth: 1
