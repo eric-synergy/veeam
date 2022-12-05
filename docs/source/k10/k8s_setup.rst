@@ -196,7 +196,7 @@ K8S Setup
 
 7. edit kube-flannel.yml,  add the line [ - --iface=eth1  ], apply kube-flannel.yml
 
-.. image:: images/k10/k10_02.png
+.. image:: ../images/k10/k10_02.png
 
 .. code-block:: bash
     
