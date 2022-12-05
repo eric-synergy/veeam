@@ -10,7 +10,8 @@ This guidebook will walk you through How to Install Kubernetes on Ubuntu 20.04.
 Environment Setup
 -----------------
 
-Using Vagrant to build the K8S Environment. This setup includes 1 master node and 2 worker nodes. 
+Using Vagrant to build the K8S Environment. This setup includes 1 master node and 2 worker nodes. 1
+
 
 .. list-table:: K8S Host Settings
    :widths: 25 25 50
@@ -55,7 +56,7 @@ Create .profile file and run source .profile
     export ESXI_USERNAME="username"
     export ESXI_PASSWORD="password"
 
-add ENV variables
+run following command to add ENV variables
 
 .. code-block:: bash
 
@@ -65,39 +66,30 @@ Vagrantfile:
 
 .. code-block:: ruby
 
-    # -*- mode: ruby -*-
-    # vi: set ft=ruby :
-    #
     Vagrant.require_version ">= 1.6.0"
-
-    # All Vagrant configuration is done below. The "2" in Vagrant.configure
-    # configures the configuration version (we support older styles for
-    # backwards compatibility). Please don't change it unless you know what
-    # you're doing.
-
 
     boxes = [
         {
-            :name => "k8s-master",
-            :eth1 => "10.110.10.80",
+            :name => "k8s-m1",
+            :eth1 => "10.110.10.86",
             :netmask => "255.255.255.0",
             :mem => "4096",
             :cpu => "2"
 
         },
         {
-            :name => "k8s-worker1",
-            :eth1 => "10.110.10.81",
-            :mem => "8192",
+            :name => "k8s-w1",
+            :eth1 => "10.110.10.87",
+            :mem => "4096",
             :netmask => "255.255.255.0",        
             :cpu => "4"
 
         },
         {
-            :name => "k8s-worker2",
-            :eth1 => "10.110.10.82",
+            :name => "k8s-w2",
+            :eth1 => "10.110.10.88",
             :netmask => "255.255.255.0",
-            :mem => "8192",
+            :mem => "4096",
             :cpu => "4"
 
         }
@@ -123,9 +115,9 @@ Vagrantfile:
             end
 
             config.vm.provider "vmware_esxi" do |v|
-            v.esxi_hostname = '10.110.10.10'
-            v.esxi_username = 'root'
-            v.esxi_password = 'TmL@bVeeam1'
+            v.esxi_hostname = ENV['ESXI_HOSTNAME']
+            v.esxi_username = ENV['ESXI_USERNAME']
+            v.esxi_password = ENV['ESXI_PASSWORD']
             # v.esxi_password = 'prompt:'    
             v.esxi_virtual_network = ['vagrant-private', 'swguest110']
             v.esxi_disk_store = 'ESXI02_Datastore'
@@ -137,9 +129,7 @@ Vagrantfile:
             v.guest_boot_disk_size = '30'
             v.guest_nic_type = 'e1000'
             v.guest_virtualhw_version = '14'
-        
             v.debug = 'true'
-        
 
             # v.customize ["modifyvm", :id, "--memory", opts[:mem]]
             # v.customize ["modifyvm", :id, "--cpus", opts[:cpu]]
@@ -151,6 +141,7 @@ Vagrantfile:
     end
     config.vm.provision "shell", privileged: true, path: "./setup.sh"
     end
+
 
 
 
