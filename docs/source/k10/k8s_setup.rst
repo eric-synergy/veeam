@@ -28,7 +28,7 @@ Using Vagrant to build the K8S Environment. This setup includes 1 master node an
 
 
 .. list-table:: K8S_Host_Settings
-   :widths: 25 25 50
+   :widths: 25 25 25 25 25 25
    :header-rows: 1
 
    * - Hostname
