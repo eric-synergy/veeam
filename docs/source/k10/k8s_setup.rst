@@ -41,10 +41,11 @@ Using Vagrant to build the K8S Environment. This setup includes 1 master node an
      - 120G
      - generic/ubuntu2004
 
-Vagrant_Script:
+Vagrantfile:
+
 .. code-block:: ruby
 
-   # -*- mode: ruby -*-
+    # -*- mode: ruby -*-
     # vi: set ft=ruby :
     #
     Vagrant.require_version ">= 1.6.0"
