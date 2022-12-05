@@ -1,28 +1,14 @@
 K8S Setup
 =========
 
-.. list-table:: Title
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-  
 Kubernetes is an open-source platform for managing containers such as Docker. Is a management system that provides a platform for deployment automation. With Kubernetes, you can freely make use of the hybrid, on-premise, and public cloud infrastructure to run deployment tasks of your project.
 
 And Docker lets you create containers for a pre-configured image and application. Kubernetes provides the next step, allowing you to balance loads between containers and run multiple containers across multiple systems.
 
 This guidebook will walk you through How to Install Kubernetes on Ubuntu 20.04.
 
-Environment Setup
------------------
+K8S Environment Setup
+---------------------
 
 Using Vagrant to build the K8S Environment. This setup includes 1 master node and 2 worker nodes. 1
 
@@ -37,21 +23,21 @@ Using Vagrant to build the K8S Environment. This setup includes 1 master node an
      - vRAM
      - vDisk
      - OS
-   * - k8s-master
+   * - k8s-m1
      - 10.110.10.80
-     - 4
+     - 2
      - 2
      - 120G
      - generic/ubuntu2004
-   * - k8s-worker01
+   * - k8s-w1
      - 10.110.10.81
-     - 8
+     - 4
      - 4
      - 120G
      - generic/ubuntu2004
-   * - k8s-worker02
+   * - k8s-w2
      - 10.110.10.82
-     - 8
+     - 4
      - 4
      - 120G
      - generic/ubuntu2004
@@ -158,6 +144,217 @@ Vagrantfile:
 
 
 
-Step-By-Step
-------------
+K8S Setup
+----------
 
+1. Check Version for kubeadm, kubelet, kubectl
+
+.. code-block:: bash
+
+    kubeadm version
+    kubelet --version
+    kubectl version
+
+2. Initizalize K8S cluster - do it on *master* node
+- --apiserver-advertise-address=master interface IP
+- --pod-network-cidr=your k8s pod network
+
+.. code-block:: bash
+
+    sudo kubeadm init --apiserver-advertise-address=10.110.10.86  --pod-network-cidr=10.244.0.0/16 
+
+
+3. Check joining cluster command
+
+.. code-block:: bash
+
+    kubeadm token create --print-join-command
+
+4. worker node join to cluster - do it on *worker* node
+
+.. code-block:: bash
+
+    sudo kubeadm join 10.110.10.86:6443 --token 3a5thm.2046hzjtm7mlnj2i \
+            --discovery-token-ca-cert-hash sha256:8303a5d9d2b8e758f34a9bbd0d971b288974d4045af47caa45c0cef3f29d3f30 
+
+5. Setup kubectl ENV
+
+.. code-block:: bash
+
+    mkdir -p $HOME/.kube
+    sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+    sudo chown $(id -u):$(id -g) $HOME/.kube/config
+    source <(kubectl completion bash)
+    echo 'source <(kubectl completion bash)' >>~/.bashrc
+
+6. download flannel
+
+.. code-block:: bash
+
+    wget https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+
+7. apply CNI - eg flannel   , add     [ - --iface=eth1  ]
+
+.. code-block:: bash
+    
+    kubectl apply -f kube-flannel.yml 
+
+8. download helm installation script file
+   
+.. code-block:: bash
+
+    curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+    chmod 700 get_helm.sh
+
+9. install helm
+    
+.. code-block:: bash
+
+    ./get_helm.sh 
+
+10. helm add repo and install csi-driver-nfs
+    
+.. code-block:: bash
+
+    helm repo add csi-driver-nfs https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/master/charts
+    helm install csi-driver-nfs csi-driver-nfs/csi-driver-nfs --namespace kube-system --version v4.1.0
+
+11. helm add ceph-csi repo
+
+.. code-block:: bash    
+
+    helm repo add ceph-csi https://ceph.github.io/csi-charts
+    kubectl create namespace "ceph-csi-rbd"
+    helm install --namespace "ceph-csi-rbd" "ceph-csi-rbd" ceph-csi/ceph-csi-rbd
+
+12. create csi-nfs storageclass
+
+.. code-block:: bash  
+
+    cat <<'EOF'> storageclass-csi-nfs.yaml | kubectl apply -f storageclass-csi-nfs.yaml
+    ---
+    apiVersion: storage.k8s.io/v1
+    kind: StorageClass
+    metadata:
+    name: csi-nfs
+    annotations:
+        storageclass.kubernetes.io/is-default-class: "true"
+    provisioner: nfs.csi.k8s.io
+    parameters:
+    server: 10.110.10.83
+    share: /nfs/export1/
+    # csi.storage.k8s.io/provisioner-secret is only needed for providing mountOptions in DeleteVolume
+    # csi.storage.k8s.io/provisioner-secret-name: "mount-options"
+    # csi.storage.k8s.io/provisioner-secret-namespace: "default"
+    reclaimPolicy: Delete
+    volumeBindingMode: Immediate
+    mountOptions:
+    - nconnect=8  # only supported on linux kernel version >= 5.3
+    - nfsvers=4.1
+    EOF
+
+13. create csi-nfs storageclass
+
+.. code-block:: bash  
+
+    cat <<'EOF'> storageclass-csi-nfs-backup.yaml | kubectl apply -f storageclass-csi-nfs-backup.yaml
+    ---
+    apiVersion: storage.k8s.io/v1
+    kind: StorageClass
+    metadata:
+    name: csi-nfs-backup
+    provisioner: nfs.csi.k8s.io
+    parameters:
+    server: 10.110.10.83
+    share: /nfs/export2/
+    # csi.storage.k8s.io/provisioner-secret is only needed for providing mountOptions in DeleteVolume
+    # csi.storage.k8s.io/provisioner-secret-name: "mount-options"
+    # csi.storage.k8s.io/provisioner-secret-namespace: "default"
+    reclaimPolicy: Delete
+    volumeBindingMode: Immediate
+    mountOptions:
+    - nconnect=8  # only supported on linux kernel version >= 5.3
+    - nfsvers=4.1
+    EOF
+
+15. create volumesnapshotclass, volumesnapshotcontent, volumesnapshotclass
+
+.. code-block:: bash  
+
+    kubectl create -f  https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter/release-3.0/client/config/crd/snapshot.storage.k8s.io_volumesnapshotclasses.yaml
+    kubectl create -f  https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter/release-3.0/client/config/crd/snapshot.storage.k8s.io_volumesnapshotcontents.yaml
+    kubectl create -f  https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter/release-3.0/client/config/crd/snapshot.storage.k8s.io_volumesnapshots.yaml
+
+16. volumestorageclass
+
+.. code-block:: bash  
+
+    cat <<'EOF'> volumestorageclass.yaml | kubectl apply -f volumestorageclass.yaml
+    apiVersion: snapshot.storage.k8s.io/v1beta1
+    kind: VolumeSnapshotClass 
+    metadata:
+      annotations:
+        k10.kasten.io/is-snapshot-class: "true"
+      name: csi-nfs-snap
+    driver: nfs.csi.k8s.io
+    deletionPolicy: Delete
+    EOF
+
+17. helm add repo and install kasten K10
+    
+.. code-block:: bash  
+
+    kubectl create namespace kasten-io
+    helm repo add kasten https://charts.kasten.io/
+
+    helm install k10 kasten/k10 --namespace kasten-io \
+      --set global.persistence.metering.size=20Gi \
+      --set prometheus.server.persistentVolume.size=20Gi \
+      --set global.persistence.catalog.size=20Gi \
+      --set injectKanisterSidecar.enabled=true \
+      --set injectKanisterSidecar.enabled=true \
+      --set-string injectKanisterSidecar.namespaceSelector.matchLabels.k10/injectKanisterSidecar=true \
+      --set auth.tokenAuth.enabled=true \
+      --set auth.basicAuth.htpasswd='admin:$apr1$nj8m0exb$RIkh3QZlbMUk4mXXHCTSG.'  
+
+
+
+18. set k10 nodeport
+    
+.. code-block:: bash  
+
+    cat > k10-nodeport-svc.yaml << EOF | kubectl apply -f k10-nodeport-svc.yaml
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: gateway-nodeport
+      namespace: kasten-io
+    spec:
+      selector:
+        service: gateway
+      ports:
+      - name: http
+        port: 8000
+        nodePort: 32000
+      type: NodePort
+    EOF
+
+19. check kasten io 
+
+.. code-block:: bash  
+
+    curl -s https://docs.kasten.io/tools/k10_primer.sh  | bash
+
+    ##deploy shopping website 
+    git clone https://github.com/microservices-demo/microservices-demo.git
+    cd microservices-demo/deploy/kubernetes
+    kubectl apply -f complete-demo.yaml
+    ### run application using browser
+    ## http://10.110.10.86:30001/
+
+
+20. check kasten io 
+
+.. code-block:: bash  
+
+    kubectl label namespace generic k10/injectKanisterSidecar=true 
