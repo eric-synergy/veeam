@@ -194,7 +194,9 @@ K8S Setup
 
     wget https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
 
-7. apply CNI - eg flannel   , add     [ - --iface=eth1  ]
+7. edit kube-flannel.yml,  add the line [ - --iface=eth1  ], apply kube-flannel.yml
+
+.. image:: images/k10/k10_02.png
 
 .. code-block:: bash
     
