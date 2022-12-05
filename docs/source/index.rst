@@ -18,7 +18,7 @@ Welcome to Veeam's documentation!
    labdesign
    lab/index
    feature
-
+   k10/index
 
 Indices and tables
 ==================
