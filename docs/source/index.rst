@@ -19,6 +19,7 @@ Welcome to Veeam's documentation!
    lab/index
    feature
    k10/index
+   v12/index
 
 Indices and tables
 ==================
