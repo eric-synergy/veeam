@@ -43,3 +43,18 @@ Postgres
 - No database size or compute restrictions
 - Proven in other Veeam Products
 - Performance
+
+move or copy backups with VeeaMover
+""""""""""""""""""""""""""""
+
+**VeeaMover**
+The new VeeaMover feature allows to easily copy or move backups between different Repositories or Backup Jobs with one click.
+
+*Use cases*
+
+- Move backups to different repository
+- Copy backups to different repository
+- Migrate ReFS to XFS for Hardened Repository
+- Migrate NTFS to ReFS
+- Re-balance Scale-Out Repository
+- Scale-Out Repository extent evacuation

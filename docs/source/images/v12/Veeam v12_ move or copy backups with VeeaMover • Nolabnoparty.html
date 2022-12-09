@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/ -->
+<html class="js" lang="en-US" prefix="og: https://ogp.me/ns#"><head itemscope="" itemtype="http://schema.org/WebSite"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<!--[if IE ]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<![endif]-->
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	
+					<link rel="icon" href="https://nolabnoparty.com/wp-content/uploads/2020/07/logo_icon.jpg" type="image/x-icon">
+		
+					<!-- IE10 Tile.-->
+			<meta name="msapplication-TileColor" content="#FFFFFF">
+			<meta name="msapplication-TileImage" content="https://nolabnoparty.com/wp-content/uploads/2020/07/logo_icon_144.jpg">
+		
+					<!--iOS/android/handheld specific -->
+			<link rel="apple-touch-icon-precomposed" href="https://nolabnoparty.com/wp-content/uploads/2020/07/logo_icon_152.jpg">
+		
+					<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		
+									<link rel="prefetch" href="https://nolabnoparty.com/en/">
+				<link rel="prerender" href="https://nolabnoparty.com/en/">
+					
+		<meta itemprop="name" content="Nolabnoparty">
+
+												<meta itemprop="creator accountablePerson" content="Paolo Valsecchi">
+								<link rel="pingback" href="https://nolabnoparty.com/xmlrpc.php">
+	<link rel="alternate" hreflang="en-us" href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/">
+<link rel="alternate" hreflang="it-it" href="https://nolabnoparty.com/veeam-v12-spostare-o-copiare-backup-con-veeamover/">
+<link rel="alternate" hreflang="x-default" href="https://nolabnoparty.com/veeam-v12-spostare-o-copiare-backup-con-veeamover/">
+<script src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(2).txt"></script><script src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(3).txt"></script><script type="text/javascript" async="" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/analytics.js.download"></script><script src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(4).txt" id="google_shimpl"></script><script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script>
+<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
+<title>Veeam v12: move or copy backups with VeeaMover • Nolabnoparty</title><link rel="preload" as="style" href="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/css"><link rel="stylesheet" href="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/css" media="all" onload="this.media=&#39;all&#39;"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%20Slab%3Anormal%7CRoboto%20Slab%3A100%7CRoboto%20Slab%3A300%7CRaleway%3A500&#038;subset=latin&#038;display=swap" /></noscript><link rel="stylesheet" href="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/9104d4a042e8f1b831ab5d9e2bcd53ba.css" media="all" data-minify="1">
+<meta name="description" content="VeeaMover is a cool new feature available in the next Veeam Backup &amp; Replication v12 that allows to move or copy backups to different locations.">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Veeam v12: move or copy backups with VeeaMover • Nolabnoparty">
+<meta property="og:description" content="VeeaMover is a cool new feature available in the next Veeam Backup &amp; Replication v12 that allows to move or copy backups to different locations.">
+<meta property="og:url" content="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/">
+<meta property="og:site_name" content="Nolabnoparty">
+<meta property="article:publisher" content="https://www.facebook.com/nolabnoparty">
+<meta property="article:author" content="https://www.facebook.com/nolabnoparty">
+<meta property="article:tag" content="backup">
+<meta property="article:tag" content="move">
+<meta property="article:tag" content="repository">
+<meta property="article:tag" content="veeamover">
+<meta property="article:section" content="backup">
+<meta property="og:image" content="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg">
+<meta property="og:image:secure_url" content="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg">
+<meta property="og:image:width" content="602">
+<meta property="og:image:height" content="202">
+<meta property="og:image:alt" content="veeamover">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="article:published_time" content="2022-11-02T09:00:49+01:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Veeam v12: move or copy backups with VeeaMover • Nolabnoparty">
+<meta name="twitter:description" content="VeeaMover is a cool new feature available in the next Veeam Backup &amp; Replication v12 that allows to move or copy backups to different locations.">
+<meta name="twitter:site" content="@nolabnoparty">
+<meta name="twitter:creator" content="@nolabnoparty">
+<meta name="twitter:image" content="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="Paolo Valsecchi">
+<meta name="twitter:label2" content="Time to read">
+<meta name="twitter:data2" content="4 minutes">
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://nolabnoparty.com/en/#person/","name":"admin","logo":{"@type":"ImageObject","@id":"https://nolabnoparty.com/en/#logo/","url":"https://nolabnoparty.com/wp-content/uploads/2016/08/logo_header.png","contentUrl":"https://nolabnoparty.com/wp-content/uploads/2016/08/logo_header.png","caption":"admin","inLanguage":"en-US","width":"400","height":"88"},"image":{"@type":"ImageObject","@id":"https://nolabnoparty.com/en/#logo/","url":"https://nolabnoparty.com/wp-content/uploads/2016/08/logo_header.png","contentUrl":"https://nolabnoparty.com/wp-content/uploads/2016/08/logo_header.png","caption":"admin","inLanguage":"en-US","width":"400","height":"88"}},{"@type":"WebSite","@id":"https://nolabnoparty.com/en/#website/","url":"https://nolabnoparty.com/en/","name":"admin","publisher":{"@id":"https://nolabnoparty.com/en/#person/"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg","url":"https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg","width":"602","height":"202","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#webpage","url":"https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/","name":"Veeam v12: move or copy backups with VeeaMover &bull; Nolabnoparty","datePublished":"2022-11-02T09:00:49+01:00","dateModified":"2022-11-02T09:00:49+01:00","isPartOf":{"@id":"https://nolabnoparty.com/en/#website/"},"primaryImageOfPage":{"@id":"https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#author","name":"Paolo Valsecchi","description":"System Engineer with an experience focused in designing and managing IT environments based on VMware vSphere and Microsoft Active Directory. VCP-DCV, vExpert, VMCE, Veeam Vanguard, PernixPro.","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=96&amp;r=g","url":"https://secure.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=96&amp;r=g","caption":"Paolo Valsecchi","inLanguage":"en-US"},"sameAs":["https://nolabnoparty.com","https://www.facebook.com/nolabnoparty","https://twitter.com/https://twitter.com/nolabnoparty"]},{"@type":"BlogPosting","headline":"Veeam v12: move or copy backups with VeeaMover &bull; Nolabnoparty","keywords":"veeamover","datePublished":"2022-11-02T09:00:49+01:00","dateModified":"2022-11-02T09:00:49+01:00","author":{"@id":"https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#author"},"publisher":{"@id":"https://nolabnoparty.com/en/#person/"},"description":"VeeaMover is a cool new feature available in the next Veeam Backup &amp; Replication v12 that allows to move or copy backups to different locations.","name":"Veeam v12: move or copy backups with VeeaMover &bull; Nolabnoparty","@id":"https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#richSnippet","isPartOf":{"@id":"https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#webpage"},"image":{"@id":"https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Nolabnoparty » Feed" href="https://nolabnoparty.com/en/feed/">
+<link rel="alternate" type="application/rss+xml" title="Nolabnoparty » Comments Feed" href="https://nolabnoparty.com/en/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Nolabnoparty » Veeam v12: move or copy backups with VeeaMover Comments Feed" href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/feed/">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+<style id="wp-block-library-theme-inline-css" type="text/css">
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+
+
+<style id="wpml-legacy-horizontal-list-0-inline-css" type="text/css">
+.wpml-ls-sidebars-sidebar, .wpml-ls-sidebars-sidebar .wpml-ls-sub-menu, .wpml-ls-sidebars-sidebar a {border-color:#cdcdcd;}.wpml-ls-sidebars-sidebar a {color:#222222;background-color:#e5e5e5;}.wpml-ls-sidebars-sidebar a:hover,.wpml-ls-sidebars-sidebar a:focus {color:#000000;background-color:#eeeeee;}.wpml-ls-sidebars-sidebar .wpml-ls-current-language>a {color:#222222;background-color:#eeeeee;}.wpml-ls-sidebars-sidebar .wpml-ls-current-language:hover>a, .wpml-ls-sidebars-sidebar .wpml-ls-current-language>a:focus {color:#000000;background-color:#eeeeee;}
+.wpml-ls-statics-shortcode_actions, .wpml-ls-statics-shortcode_actions .wpml-ls-sub-menu, .wpml-ls-statics-shortcode_actions a {border-color:#cdcdcd;}.wpml-ls-statics-shortcode_actions a {color:#222222;background-color:#e5e5e5;}.wpml-ls-statics-shortcode_actions a:hover,.wpml-ls-statics-shortcode_actions a:focus {color:#000000;background-color:#eeeeee;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a {color:#222222;background-color:#eeeeee;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language:hover>a, .wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a:focus {color:#000000;background-color:#eeeeee;}
+.wpml-ls-sidebars-sidebar, .wpml-ls-sidebars-sidebar .wpml-ls-sub-menu, .wpml-ls-sidebars-sidebar a { border: 0px; text-align: center; } .wpml-ls-legacy-list-horizontal .wpml-ls-item { margin-right: 10px; } .wpml-ls-legacy-list-horizontal { padding: 1px; } .wpml-ls-legacy-list-horizontal .wpml-ls-flag { margin-right: 5px; }
+</style>
+
+
+<style id="schema-stylesheet-inline-css" type="text/css">
+
+		body {background-color:#eeeeee;}
+		.main-header.regular_header, .regular_header #primary-navigation .navigation ul ul li {background-color:#ffffff;}
+		.main-header.logo_in_nav_header, .logo_in_nav_header #primary-navigation .navigation ul ul li {background-color:#ffffff;}
+		body {background-color:#eeeeee;}
+		.pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .pagination .page-numbers.current, .pagination a:hover, .single .pagination a:hover .current { background: #0274be; }
+		.postauthor h5, .textwidget a, .pnavigation2 a, .sidebar.c-4-12 a:hover, footer .widget li a:hover, .sidebar.c-4-12 a:hover, .reply a, .title a:hover, .post-info a:hover, .widget .thecomment, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover, #secondary-navigation .navigation ul li a:hover, .readMore a, #primary-navigation a:hover, #secondary-navigation .navigation ul .current-menu-item a, .widget .wp_review_tab_widget_content a, .sidebar .wpt_widget_content a { color:#0274be; }
+		a#pull, #commentform input#submit, #mtscontact_submit, .mts-subscribe input[type='submit'], .widget_product_search input[type='submit'], #move-to-top:hover, .currenttext, .pagination a:hover, .pagination .nav-previous a:hover, .pagination .nav-next a:hover, #load-posts a:hover, .single .pagination a:hover .currenttext, .single .pagination > .current .currenttext, #tabber ul.tabs li a.selected, .tagcloud a, .wp-block-tag-cloud a, .navigation ul .sfHover a, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce .bypostauthor:after, #searchsubmit, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .latestPost-review-wrapper, .latestPost .review-type-circle.latestPost-review-wrapper, #wpmm-megamenu .review-total-only, .sbutton, #searchsubmit, .widget .wpt_widget_content #tags-tab-content ul li a, .widget .review-total-only.large-thumb, #add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-account .woocommerce-MyAccount-navigation li.is-active, .woocommerce-product-search button[type='submit'], .woocommerce .woocommerce-widget-layered-nav-dropdown__submit, .wp-block-search .wp-block-search__button { background-color:#0274be; color: #fff!important; }
+		.related-posts .title a:hover, .latestPost .title a { color: #0274be; }
+		.navigation #wpmm-megamenu .wpmm-pagination a { background-color: #0274be!important; }
+		#header .sbutton, #secondary-navigation .ajax-search-results li a:hover { color: #0274be!important; }
+		footer {background-color:#2b2b2b; }
+		
+		.copyrights { background-color: #b5b5b5; }
+		.flex-control-thumbs .flex-active{ border-top:3px solid #0274be;}
+		.wpmm-megamenu-showing.wpmm-light-scheme { background-color:#0274be!important; }
+		.regular_header #header {background-color:; }
+		.logo_in_nav_header #header {background-color:; }
+		
+		
+		
+		.bypostauthor > div { overflow: hidden; padding: 3%; background: #222; width: 100%; color: #AAA; box-sizing: border-box; }
+		.bypostauthor:after { content: "\f044"; position: absolute; font-family: fontawesome; right: 0; top: 0; padding: 1px 10px; color: #535353; font-size: 32px; }
+		
+		
+		/*  links  */
+a:link { font-weight: bold; }
+.single_post a:hover  { border-bottom: 1px dotted #0274be; }
+
+/* top menu height */
+.regular_header div#primary-nav { height: 40px; }
+
+/*  vertical alignment logo */
+.logo-wrap { margin:  20px 0; }
+
+/*  logo area  */
+div#regular-header { height: 100%; padding: 0; }
+
+/* header widget */
+.widget-header { margin-top: 25px; }
+
+/* menu background */
+#header { background: #144FD5; height: 50px; margin-top: 10px; }
+
+/*  menu hover size  */
+#secondary-navigation a { padding: 14px 15px; }
+
+/*  main_menu  */
+#secondary navigation { height: 50px; }
+
+#navigation ul ul a, #navigation ul ul a:link, #navigation ul ul a:visited { font-size: 14px; }
+
+#page { padding-top: 20px; }
+
+/*  post title home  */
+.latestPost .title a { letter-spacing: -1px; }
+.latestPost .title a:hover { color: #0036D9; }
+.post-info > span { margin-right: 10px; }
+
+/*  home post title */
+.single-title { letter-spacing: -1px; }
+
+/*  add space between time to read and comments */
+.fa { margin-left: 10px; }
+
+/* ul format */
+article ul { padding: 0px 0 30px 40px; }
+
+/* ol format */
+article ol { padding: 0px 0 30px 40px; }
+
+/* ul format */
+article ul { padding: 0px 0 12px 40px; }
+
+/* distance between widgets  */
+#sidebar .widget { margin-bottom: 0;  padding: 10px; box-shadow: 0 0 0 0; }
+
+/*  widget title size  */
+#sidebar .widget h3 { padding-bottom: 2px; border-bottom: dotted 1px #ccc; }
+
+/*  widget search background  */
+#sidebar .widget.widget_search { background: #fff ; padding-top: 10px;}
+#sidebar .widget.widget_search h3 { display: none; }
+#s { padding: 5px 0 ; }
+.sbutton { height: 30px; padding: 5px;}
+
+/*  social profiles  */
+#sidebar .widget.social-profile-icons { padding-left:  50px; }
+
+/*  posts title  */
+.post-single-content h2 { text-transform: initial; font-size: 26px; color: #666; }
+.post-single-content h4 { text-transform: initial; color: #666; }
+
+/*  archive title  */
+.postsby { text-transform: uppercase; }
+
+/*  CC license bottom margin  */
+div#text-4.widget.widget_text { margin-bottom: 10px; }
+
+/*  popular posts  */
+.popular-posts a { font-size: 14px; }
+
+/*  Author box*/
+.postauthor h4, .postauthor-top { margin-bottom: 10px; margin-top: 1px; font-size: 24px; }
+.postauthor { min-height: 120px; background-color: #555; color: #fff; border-bottom: solid 2px #333;}
+
+/*  box reply  */
+#respond h3 { font-size: 24px; color: #666; }
+
+/*  comments  */
+.commentlist .children li { border: solid 1px #ccc; background-color: #eee; }
+.commentlist p { color: #000; }
+.ago { color: #333; }
+.bypostauthor>div { background: #eee; }
+
+/*  avatar  */
+.avatar { padding-right: 10px; padding-bottom: 10px; }
+
+/*  share buttons  */
+.shareit { padding: 40px 0 7px; }
+
+/*  related posts  */
+.related-posts article { width: 30%; margin-right: 10px; }
+.related-posts .title a { font-size: 14px!important; }
+
+/*.featured-thumbnail img { width: 150px; height: 100px; }*/
+.related-posts .title { font-size: 14px; }
+
+/*  rss feed  */
+.mts-subscribe input[type="text"] { height: 15px; }
+.mts-subscribe input[type="submit"] { height: 30px; padding: 5px; }
+
+/*  ads alignment  */
+.topad { margin: 20px 0 20px 0; text-align: center; }
+.bottomad { float: none; margin-bottom: 10px; text-align: center; }
+
+/* notification bars placement */
+body { padding-top: 0 !important; }
+.mtsnb.mtsnb-top.mtsnb-fixed { top: auto !important; bottom: 0; }
+
+/* move to top arrow alignment */
+#move-to-top .fa-angle-double-up { margin-left: -2px; }
+
+/* wp subscribe plugin */
+.wp-subscribe-wrap { padding: 15px; background: #58ABD5; }
+.wp-subscribe-wrap h4.title { font-size: 17px; line-height: 1; margin-bottom: 0; }
+.wp-subscribe-wrap p.text { margin: 8px 0; font-size: 14px; }
+.wp-subscribe-wrap input.email-field, .wp-subscribe-wrap input.name-field { color: #fff; background: #d56144; }
+.wp-subscribe-wrap .email-field { margin-top: 5px; }
+.wp-subscribe-wrap input { height: 30px; margin: 0px; padding: 0px 0; }
+.wp-subscribe-wrap .wps-consent-wrapper { margin-top: 10px; }
+.wp-subscribe-wrap input.consent-field { width: 16px; height: 16px; margin-top: 4px; margin-right: 6px; }
+.wp-subscribe-wrap .wps-consent-wrapper label { font-size: 14px; }
+.wp-subscribe-wrap input.submit { font-size: 16px; font-weight: 600; line-height: 0; margin-top: 10px; text-transform: capitalize; }
+.wp-subscribe-wrap p.footer-text { font-size: 12px; margin-top: 10px; }
+
+	
+</style>
+
+
+
+<style id="rocket-lazyload-inline-css" type="text/css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://nolabnoparty.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+</style>
+<script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/jquery.min.js.download" id="jquery-core-js"></script>
+<script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="cookie-notice-front-js-extra">
+/* <![CDATA[ */
+var cnArgs = {"ajaxUrl":"https:\/\/nolabnoparty.com\/wp-admin\/admin-ajax.php","nonce":"82d770a280","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","globalCookie":"0","redirection":"0","cache":"1","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script async="" type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/front.min.js.download" id="cookie-notice-front-js"></script>
+<link rel="https://api.w.org/" href="https://nolabnoparty.com/en/wp-json/"><link rel="alternate" type="application/json" href="https://nolabnoparty.com/en/wp-json/wp/v2/posts/55145"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nolabnoparty.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://nolabnoparty.com/wp-includes/wlwmanifest.xml"> 
+
+<link rel="shortlink" href="https://nolabnoparty.com/en/?p=55145">
+<link rel="alternate" type="application/json+oembed" href="https://nolabnoparty.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://nolabnoparty.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F&amp;format=xml">
+<meta name="generator" content="WPML ver:4.5.14 stt:1,27;">
+
+<style type="text/css">
+#logo a { font-family: 'Roboto Slab'; font-weight: normal; font-size: 32px; color: #222222;text-transform: uppercase; }
+.primary-navigation a { font-family: 'Roboto Slab'; font-weight: 100; font-size: 13px; color: #777777; }
+.secondary-navigation a { font-family: Tahoma, Geneva, sans-serif; font-weight: normal; font-size: 18px; color: #ffffff; }
+.latestPost .title a { font-family: 'Roboto Slab'; font-weight: 300; font-size: 32px; color: #0274be; }
+.single-title { font-family: 'Roboto Slab'; font-weight: 300; font-size: 32px; color: #222222; }
+body { font-family: 'Raleway'; font-weight: 500; font-size: 16px; color: #444444; }
+#sidebars .widget h3 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 20px; color: #222222;text-transform: uppercase; }
+#sidebars .widget { font-family: 'Raleway'; font-weight: 500; font-size: 16px; color: #444444; }
+.footer-widgets h3 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 18px; color: #ffffff;text-transform: uppercase; }
+.f-widget a, footer .wpt_widget_content a, footer .wp_review_tab_widget_content a, footer .wpt_tab_widget_content a, footer .widget .wp_review_tab_widget_content a { font-family: 'Raleway'; font-weight: 500; font-size: 16px; color: #999999; }
+.footer-widgets, .f-widget .top-posts .comment_num, footer .meta, footer .twitter_time, footer .widget .wpt_widget_content .wpt-postmeta, footer .widget .wpt_comment_content, footer .widget .wpt_excerpt, footer .wp_review_tab_widget_content .wp-review-tab-postmeta, footer .advanced-recent-posts p, footer .popular-posts p, footer .category-posts p { font-family: 'Raleway'; font-weight: 500; font-size: 16px; color: #eaeaea; }
+#copyright-note, #copyright-note a { font-family: 'Raleway'; font-weight: 500; font-size: 14px; color: #7e7d7d; }
+h1 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 28px; color: #222222; }
+h2 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 24px; color: #222222; }
+h3 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 22px; color: #222222; }
+h4 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 20px; color: #222222; }
+h5 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 18px; color: #222222; }
+h6 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 16px; color: #222222; }
+</style>
+<link rel="icon" href="https://nolabnoparty.com/wp-content/uploads/2016/11/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://nolabnoparty.com/wp-content/uploads/2016/11/cropped-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://nolabnoparty.com/wp-content/uploads/2016/11/cropped-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="https://nolabnoparty.com/wp-content/uploads/2016/11/cropped-favicon-270x270.png">
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(5).txt" as="script"><script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(5).txt"></script><link rel="preload" href="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(6).txt" as="script"><script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(6).txt"></script><link rel="preload" href="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(5).txt" as="script"><script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(5).txt"></script><link rel="preload" href="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(6).txt" as="script"><script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(6).txt"></script></head>
+
+<body id="blog" class="post-template-default single single-post postid-55145 single-format-standard wp-embed-responsive main default cslayout cookies-not-set" itemscope="" itemtype="http://schema.org/WebPage" style="padding: 154px 0px 0px;"><a id="move-to-top" class="animate filling" href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#blog"><i class="fa fa-angle-double-up"></i></a>
+	<div class="main-container" style="height: auto !important;">
+		
+									<header id="site-header" class="main-header regular_header" role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
+											<div id="regular-header">
+							<div class="container">
+								<div class="logo-wrap">
+																				<h2 id="logo" class="image-logo" itemprop="headline">
+												<a href="https://nolabnoparty.com/en/">
+													<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/logo_header.jpg" alt="Nolabnoparty" width="400" height="88" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2020/07/logo_header.jpg" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/2020/07/logo_header.jpg" alt="Nolabnoparty" width="400" height="88"></noscript></a>
+											</h2><!-- END #logo -->
+																			</div>
+																	<div class="widget-header"><!--  ads 728x90 starwind -->
+
+<div align="center">
+<a href="https://www.starwindsoftware.com/g2-fall-2022-reports-for-hci-solutions?utm_source=nolabnoparty.com&amp;utm_medium=banner&amp;utm_campaign=g2_report&amp;utm_content=728_90" rel="”nofollow”" target="_blank">
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_starwind_728x90.png" alt="starwind" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_starwind_728x90.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_starwind_728x90.png" alt="starwind"></noscript>
+</a>
+</div></div>
+															</div>
+						</div>
+												<div id="header">
+												<div class="container">
+							
+							<div id="secondary-navigation" class="secondary-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+								<a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#" id="pull" class="toggle-mobile-menu">Menu</a>
+																	<nav class="navigation clearfix mobile-menu-wrapper">
+										<ul id="menu-menu_en" class="menu clearfix toggle-menu"><li id="menu-item-14077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14077"><a href="https://nolabnoparty.com/en">Home</a></li>
+<li id="menu-item-14070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14070"><a href="https://nolabnoparty.com/en/about/">About</a></li>
+<li id="menu-item-25058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25058"><a href="https://nolabnoparty.com/en/publications/">Publications</a></li>
+<li id="menu-item-43023" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-43023 toggle-menu-item-parent"><a href="https://nolabnoparty.com/en/category/vmware-en/">VMware</a>
+<ul class="sub-menu toggle-submenu">
+	<li id="menu-item-24353" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24353"><a href="https://nolabnoparty.com/en/category/vmware-en/vsphere67-en/">vSphere 6.7</a></li>
+	<li id="menu-item-19868" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19868"><a href="https://nolabnoparty.com/en/category/vmware-en/vsphere65-en/">vSphere 6.5</a></li>
+	<li id="menu-item-18070" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18070"><a href="https://nolabnoparty.com/en/category/vmware-en/horizon-en/">Horizon</a></li>
+	<li id="menu-item-18351" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18351 toggle-menu-item-parent"><a href="https://nolabnoparty.com/en">Analyzer</a>
+	<ul class="sub-menu toggle-submenu">
+		<li id="menu-item-18071" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18071"><a href="https://nolabnoparty.com/en/category/vmware-en/opvizor-en/">Opvizor</a></li>
+		<li id="menu-item-18354" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18354"><a href="https://nolabnoparty.com/en/category/vmware-en/runecast-en/">Runecast</a></li>
+		<li id="menu-item-42670" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42670"><a href="https://nolabnoparty.com/en/category/vmware-en/vrealize-en/">vRealize</a></li>
+		<li id="menu-item-18073" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18073"><a href="https://nolabnoparty.com/en/category/vmware-en/turbonomic-en/">Turbonomic</a></li>
+	</ul>
+<span class="toggle-caret"><i class="fa fa-plus"></i></span></li>
+	<li id="menu-item-18069" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18069 toggle-menu-item-parent"><a href="https://nolabnoparty.com/en">Virtualization</a>
+	<ul class="sub-menu toggle-submenu">
+		<li id="menu-item-23548" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23548"><a href="https://nolabnoparty.com/en/category/vmware-en/aws-en/">AWS</a></li>
+		<li id="menu-item-18072" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18072"><a href="https://nolabnoparty.com/en/category/vmware-en/pernixdata-en/">PernixData</a></li>
+		<li id="menu-item-21447" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21447"><a href="https://nolabnoparty.com/en/category/vmware-en/starwind-en/">StarWind</a></li>
+		<li id="menu-item-24015" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24015"><a href="https://nolabnoparty.com/en/category/vmware-en/vsan-en/">vSAN</a></li>
+	</ul>
+<span class="toggle-caret"><i class="fa fa-plus"></i></span></li>
+</ul>
+<span class="toggle-caret"><i class="fa fa-plus"></i></span></li>
+<li id="menu-item-43018" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-43018 toggle-menu-item-parent"><a href="https://nolabnoparty.com/en/category/backup-en/">Backup</a>
+<ul class="sub-menu toggle-submenu">
+	<li id="menu-item-18065" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18065"><a href="https://nolabnoparty.com/en/category/backup-en/altaro-en/">Altaro</a></li>
+	<li id="menu-item-43019" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43019"><a href="https://nolabnoparty.com/en/category/backup-en/iperius-en/">Iperius</a></li>
+	<li id="menu-item-18067" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18067"><a href="https://nolabnoparty.com/en/category/backup-en/microfocus-en/">Micro Focus</a></li>
+	<li id="menu-item-18068" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18068"><a href="https://nolabnoparty.com/en/category/backup-en/nakivo-en/">Nakivo</a></li>
+	<li id="menu-item-43021" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43021"><a href="https://nolabnoparty.com/en/category/backup-en/recoverpoint-en/">RecoverPoint</a></li>
+	<li id="menu-item-18352" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-18352"><a href="https://nolabnoparty.com/en/category/backup-en/veeam-en/">Veeam</a></li>
+	<li id="menu-item-53486" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53486"><a href="https://nolabnoparty.com/en/category/backup-en/vinchin-en/">Vinchin</a></li>
+	<li id="menu-item-20854" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20854"><a href="https://nolabnoparty.com/en/category/backup-en/vembu-en/">Vembu</a></li>
+</ul>
+<span class="toggle-caret"><i class="fa fa-plus"></i></span></li>
+<li id="menu-item-18057" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-18057 toggle-menu-item-parent"><a href="https://nolabnoparty.com/en/category/microsoft-en/">Microsoft</a>
+<ul class="sub-menu toggle-submenu">
+	<li id="menu-item-23164" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23164"><a href="https://nolabnoparty.com/en/category/microsoft-en/active-directory-en/">Active Directory</a></li>
+	<li id="menu-item-23165" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23165"><a href="https://nolabnoparty.com/en/category/microsoft-en/office365-en/">Office 365</a></li>
+	<li id="menu-item-23166" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23166"><a href="https://nolabnoparty.com/en/category/microsoft-en/windows-server-en/">Windows Server</a></li>
+</ul>
+<span class="toggle-caret"><i class="fa fa-plus"></i></span></li>
+<li id="menu-item-20554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20554"><a href="https://nolabnoparty.com/en/home-lab/">Home Lab</a></li>
+</ul>									</nav>
+															<div id="mobile-menu-overlay" style="display: none;"></div></div>
+						</div><!--.container-->
+					</div>
+					</header>
+					
+
+			
+<div id="page" class="single" style="height: auto !important; min-height: 0px !important;">
+
+	
+	<article class="article clearfix" style="height: auto !important;">
+		<div id="content_box" style="height: auto !important;">
+									<div id="post-55145" class="g post post-55145 type-post status-publish format-standard has-post-thumbnail hentry category-backup-en category-veeam-en tag-backup-en tag-move-en tag-repository-en tag-veeamover has_thumb" style="height: auto !important;">
+																	<div class="single_post" style="height: auto !important;">
+											<header>
+																									<h1 class="title single-title entry-title">Veeam v12: move or copy backups with VeeaMover</h1>
+																<div class="post-info">
+								<span class="theauthor"><i class="fa fa-user"></i> <span><a href="https://nolabnoparty.com/en/author/paolo-valsecchi/" title="Posts by Paolo Valsecchi" rel="author">Paolo Valsecchi</a></span></span>
+								<span class="thetime date updated"><i class="fa fa-calendar"></i> <span>02/11/2022</span></span>
+								<span class="thecomment"><i class="fa fa-comments"></i> <a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#comments" itemprop="interactionCount">2 Comments</a></span>
+				
+				Reading Time: 4 minutes				
+							</div>
+														</header><!--.headline_area-->
+											<div class="post-single-content box mark-links entry-content" style="height: auto !important;">
+																										<div class="topad">
+															<!--  ads 728x90 altaro -->
+
+<div align="center">
+<a href="https://www.altaro.com/ebook/m365-security-checklist.php?LP=nolabnoparty-sc-Banner-ebook-m365-security-checklist-EN&amp;Cat=SC&amp;ALP=ebook-ebook-m365-security-checklist-nolabnoparty-sc-banner&amp;utm_source=nolabnoparty&amp;utm_medium=sc&amp;utm_campaign=ebook-office-365-microsoft-365&amp;utm_content=banner" rel="”nofollow”" target="_blank">
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_altaro_728x90.jpg" alt="altaro" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_altaro_728x90.jpg" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_altaro_728x90.jpg" alt="altaro"></noscript>
+</a>
+</div>														</div>
+																										<div class="thecontent">
+													<p><img class="aligncenter wp-image-55281 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01" width="602" height="202" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55281 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01" width="602" height="202" /></noscript></p>
+<p>VeeaMover is a cool new feature available in the next <a href="https://nolabnoparty.com/en/veeam-v12-sneak-peek-whats-new/">Veeam Backup &amp; Replication v12</a> that allows to <strong>move or copy backups to different locations</strong>.</p>
+<p>If you need to change the target repository for a Backup Job <strong>containing existing backups</strong>, a warning message is displayed and the procedure cannot be finalized until the backups have moved to the new repository.<span id="more-55145"></span></p>
+<p><img class="aligncenter wp-image-55283 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-02" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-02.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-02" width="383" height="152" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-02.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55283 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-02" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-02.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-02" width="383" height="152" /></noscript></p>
+<p>With current versions of Veeam this is a <strong>manual, time-consuming</strong> operation. Here is where VeeaMover <strong>come into play</strong>.</p>
+<p>&nbsp;</p>
+<h2>VeeaMover</h2>
+<p>The new VeeaMover feature allows to easily <strong>copy or move backups</strong> between different Repositories or Backup Jobs with one click.</p>
+<p>&nbsp;</p>
+<h4>Use cases</h4>
+<p>Common VeeaMover use cases are the following:</p>
+<ul>
+<li>Move backups to different repository</li>
+<li>Copy backups to different repository</li>
+<li>Migrate ReFS to XFS for Hardened Repository</li>
+<li>Migrate NTFS to ReFS</li>
+<li>Re-balance Scale-Out Repository</li>
+<li>Scale-Out Repository extent evacuation</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Move backups to a different location</h2>
+<p>To move a backup to a different repository, go to <strong>Disk</strong> section under <strong>Backups</strong> and right click the backup to process. Select <strong>Move backup</strong> option. Note the current repository in the corresponding column (<em>DS918BCK01</em> in the example).</p>
+<p><img class="aligncenter wp-image-55285 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-03" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-03-600x290.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-03" width="600" height="290" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-03-600x290.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55285 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-03" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-03-600x290.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-03" width="600" height="290" /></noscript></p>
+<p>Select the <strong>Destination repository</strong> from the drop-down menu and click <strong>OK</strong>.</p>
+<p><img class="aligncenter wp-image-55287 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-04" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-04.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-04" width="586" height="349" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-04.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55287 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-04" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-04.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-04" width="586" height="349" /></noscript></p>
+<p>The backup is being moved to the selected repository.</p>
+<p><img class="aligncenter wp-image-55289 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-05" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-05-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-05" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-05-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55289 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-05" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-05-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-05" width="600" height="448" /></noscript></p>
+<p>After few minutes the move completes successfully. Click <strong>Close</strong> to exit the window.</p>
+<p><img class="aligncenter wp-image-55291 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-06" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-06-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-06" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-06-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55291 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-06" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-06-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-06" width="600" height="448" /></noscript></p>
+<p>Checking the moved backup, the new repository is the one previously selected (<em>DS918BCK02</em>&nbsp;in the example).</p>
+<p><img class="aligncenter wp-image-55293 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-07" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-07-600x197.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-07" width="600" height="197" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-07-600x197.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55293 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-07" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-07-600x197.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-07" width="600" height="197" /></noscript></p>
+<p>&nbsp;</p>
+<h4>Change the target repository in the Backup Job</h4>
+<p>The target Repository can be changed also in an existing Backup Job.</p>
+<p>Edit the desired Backup Job and select the new <strong>Backup repository</strong>&nbsp;in the <strong>Storage</strong> section. Click <strong>Next</strong>.</p>
+<p><img class="aligncenter wp-image-55295 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-08" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-08-600x427.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-08" width="600" height="427" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-08-600x427.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55295 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-08" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-08-600x427.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-08" width="600" height="427" /></noscript></p>
+<p>During the validation, the system detects that the Backup Job has existing backups. Click <strong>Moving Existing</strong> to change location.</p>
+<p><img class="aligncenter wp-image-55297 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-09" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-09-600x105.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-09" width="600" height="105" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-09-600x105.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55297 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-09" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-09-600x105.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-09" width="600" height="105" /></noscript></p>
+<p>The target repository of the Backup Job being edited is <strong>automatically selected</strong>. Click <strong>OK</strong> to proceed with the move and complete the procedure.</p>
+<p><img class="aligncenter wp-image-55299 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-10" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-10.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-10" width="586" height="349" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-10.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55299 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-10" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-10.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-10" width="586" height="349" /></noscript></p>
+<p>&nbsp;</p>
+<h4>Move a VM to different Backup Job</h4>
+<p>While backups can be moved between different repositories, VMs can be moved to different Backup Jobs. Right click the VM to process and select <strong>Move backup</strong>.</p>
+<p><img class="aligncenter wp-image-55301 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-11" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-11-600x469.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-11" width="600" height="469" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-11-600x469.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55301 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-11" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-11-600x469.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-11" width="600" height="469" /></noscript></p>
+<p>Select the <strong>Destination backup job</strong> and click <strong>OK</strong>.</p>
+<p><img class="aligncenter wp-image-55303 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-12" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-12.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-12" width="586" height="362" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-12.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55303 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-12" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-12.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-12" width="586" height="362" /></noscript></p>
+<p>Selected VM is being moved to the selected Backup Job.</p>
+<p><img class="aligncenter wp-image-55305 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-13" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-13-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-13" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-13-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55305 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-13" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-13-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-13" width="600" height="448" /></noscript></p>
+<p>After few seconds the process completes successfully. Click <strong>Close</strong> to exit the window.</p>
+<p><img class="aligncenter wp-image-55307 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-14" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-14-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-14" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-14-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55307 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-14" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-14-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-14" width="600" height="448" /></noscript></p>
+<p>The VM has been moved to the selected Backup Job.</p>
+<p><img class="aligncenter wp-image-55309 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-15" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-15-600x195.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-15" width="600" height="195" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-15-600x195.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55309 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-15" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-15-600x195.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-15" width="600" height="195" /></noscript></p>
+<p>&nbsp;</p>
+<h2>Copy backups to a different location</h2>
+<p>The copy operation with VeeaMover is pretty the same as seen previously.</p>
+<p>To copy a backup to a different repository, go to <strong>Disk</strong> section under <strong>Backups</strong> and right click the backup to process. Select <strong>Copy backup</strong> option. Note the current repository in the corresponding column (<em>DS918BCK01</em> in the example).</p>
+<p><img class="aligncenter wp-image-55311 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-16" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-16-600x246.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-16" width="600" height="246" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-16-600x246.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55311 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-16" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-16-600x246.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-16" width="600" height="246" /></noscript></p>
+<p>As you can notice, in addition to the <strong>Backup repository</strong> option the backup can be also copied to a <strong>Local or shared folder</strong>. Select the desired <strong>Backup repository</strong> from the drop-down menu and click <strong>OK</strong>.</p>
+<p><img class="aligncenter wp-image-55313 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-17" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-17.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-17" width="586" height="459" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-17.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55313 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-17" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-17.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-17" width="586" height="459" /></noscript></p>
+<p>The backup is being copied to the selected repository.</p>
+<p><img class="aligncenter wp-image-55315 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-18" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-18" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-18-600x448.jpg" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-18-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55315 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-18" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-18-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-18" width="600" height="448" /></noscript></p>
+<p>After few minutes the copy operation completes successfully. Click <strong>Close</strong> to exit the window.</p>
+<p><img class="aligncenter wp-image-55317 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-19" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-19-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-19" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-19-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55317 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-19" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-19-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-19" width="600" height="448" /></noscript></p>
+<p>Checking the copied backup, it is now located in the new <strong>Disk (Exported)</strong> section and stored in the previously selected repository (<em>NTFS Repository</em> in the example).</p>
+<p><img class="aligncenter wp-image-55329 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-20" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-20-600x236.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-20" width="600" height="236" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-20-600x236.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55329 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-20" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-20-600x236.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-20" width="600" height="236" /></noscript></p>
+<p>&nbsp;</p>
+<h4>Copy a VM to different location</h4>
+<p>VMs can be copied to different <strong>Backup repository</strong> or <strong>Local or shared folder</strong>. Right click the VM to process and select <strong>Copy backup</strong>.</p>
+<p><img class="aligncenter wp-image-55331 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-21" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-21-600x443.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-21" width="600" height="443" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-21-600x443.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55331 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-21" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-21-600x443.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-21" width="600" height="443" /></noscript></p>
+<p>Select the <strong>Destination</strong>, for example <strong>Local or shared folder</strong>. Click <strong>Browse</strong> and select the folder in which to copy the VM then click <strong>OK</strong>.</p>
+<p><img class="aligncenter wp-image-55333 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-22" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-22.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-22" width="587" height="609" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-22.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55333 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-22" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-22.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-22" width="587" height="609" /></noscript></p>
+<p>Once the desired folder has been selected, click <strong>OK</strong> to proceed with the copy.</p>
+<p><img class="aligncenter wp-image-55335 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-23" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-23.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-23" width="586" height="459" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-23.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55335 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-23.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-23" width="586" height="459" /></noscript></p>
+<p>The selected VM is being copied to a local folder.</p>
+<p><img class="aligncenter wp-image-55337 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-24" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-24-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-24" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-24-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55337 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-24" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-24-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-24" width="600" height="448" /></noscript></p>
+<p>After few seconds the process completes successfully. Click <strong>Close</strong> to exit the window.</p>
+<p><img class="aligncenter wp-image-55339 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-25" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-25-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-25" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-25-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55339 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-25" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-25-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-25" width="600" height="448" /></noscript></p>
+<p>The copied VM can be found in the <strong>Disk (Exported)</strong> section.</p>
+<p><img class="aligncenter wp-image-55341 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-26" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-26-600x235.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-26" width="600" height="235" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-26-600x235.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55341 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-26" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-26-600x235.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-26" width="600" height="235" /></noscript></p>
+<p>Browsing the folder used&nbsp;to store the VM, you can find the copied backup.</p>
+<p><img class="aligncenter wp-image-55343 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-27" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-27-600x250.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-27" width="600" height="250" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-27-600x250.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55343 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-27" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-27-600x250.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-27" width="600" height="250" /></noscript></p>
+<p>&nbsp;</p>
+<h2>Migrate backups from NTFS to ReFS</h2>
+<p>Another cool capability of VeeaMover is the option to <strong>migrate backups from NTFS to ReFS</strong> file system and vice versa. A reason you should move from NTFS to ReFS is to take advantage of the <strong>Fast Clone technology</strong>. Fast Clone increases the speed of synthetic backup creation and transformation, reduces disk space requirements and decreases the load on storage devices.</p>
+<p>To migrate a backup from a NTFS to a <a href="https://en.wikipedia.org/wiki/ReFS" target="_blank" rel="noopener">ReFS</a> repository, go to <strong>Disk</strong> (or <strong>Disk (Exported)</strong>) section under <strong>Backups</strong> and right click the backup to process. Select <strong>Move backup</strong> option. Note the current repository in the corresponding column (<em>NTFS Repository</em>&nbsp;in the example).</p>
+<p><img class="aligncenter wp-image-55345 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-28" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-28-600x268.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-28" width="600" height="268" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-28-600x268.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55345 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-28" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-28-600x268.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-28" width="600" height="268" /></noscript></p>
+<p>Select the ReFS <strong>Destination repository</strong> from the drop-down menu and click <strong>OK</strong>.</p>
+<p><img class="aligncenter wp-image-55347 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-29" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-29.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-29" width="586" height="349" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-29.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55347 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-29" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-29.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-29" width="586" height="349" /></noscript></p>
+<p>The backup is being moved to the selected ReFS repository.</p>
+<p><img class="aligncenter wp-image-55349 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-30" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-30-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-30" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-30-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55349 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-30" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-30-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-30" width="600" height="448" /></noscript></p>
+<p>After few minutes the move completes successfully. Click <strong>Close</strong> to exit the window.</p>
+<p><img class="aligncenter wp-image-55351 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-31" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-31-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-31" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-31-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55351 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-31" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-31-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-31" width="600" height="448" /></noscript></p>
+<p>Checking the moved backup, it is now stored in the ReFS repository (<em>ReFS Repository</em> in the example).</p>
+<p><img class="aligncenter wp-image-55353 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-32" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-32-600x266.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-32" width="600" height="266" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-32-600x266.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55353 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-32" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-32-600x266.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-32" width="600" height="266" /></noscript></p>
+<p>The migrated backup in the ReFS repository.</p>
+<p><img class="aligncenter wp-image-55355 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-33" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-33-600x314.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-33" width="600" height="314" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-33-600x314.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55355 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-33" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-33-600x314.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-33" width="600" height="314" /></noscript></p>
+<p>&nbsp;</p>
+<h2>Migrate ReFS to XFS for Hardened Repository</h2>
+<p>VeeaMover is also useful to migrate backups from ReFS to XFS for <a href="https://nolabnoparty.com/en/veeam-v11-hardened-repository-immutability-pt-1/">Hardened Repository</a>.</p>
+<p>Go to <strong>Disk</strong> (or <strong>Disk (Exported)</strong>) section under <strong>Backups</strong> and right click the backup to process. Select <strong>Move backup</strong> option. Note the current repository (<em>ReFS Repository</em>&nbsp;in the example).</p>
+<p><img class="aligncenter wp-image-55357 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-34" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-34-600x253.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-34" width="600" height="253" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-34-600x253.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55357 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-34" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-34-600x253.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-34" width="600" height="253" /></noscript></p>
+<p>Select the Hardened Repository as <strong>Destination repository</strong> from the drop-down menu and click <strong>OK</strong>.</p>
+<p><img class="aligncenter wp-image-55359 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-35" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-35.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-35" width="586" height="349" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-35.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55359 size-full" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-35" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-35.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-35" width="586" height="349" /></noscript></p>
+<p>The backup is being moved to the selected <a href="https://nolabnoparty.com/en/veeam-v11-upgrade-the-hardened-repository/">Hardened Repository</a>.</p>
+<p><img class="aligncenter wp-image-55361 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-36" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-36-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-36" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-36-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55361 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-36" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-36-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-36" width="600" height="448" /></noscript></p>
+<p>After few minutes the move completes successfully. Click <strong>Close</strong> to exit the window.</p>
+<p><img class="aligncenter wp-image-55363 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-37" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-37" width="600" height="448" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-37-600x448.jpg" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-37-600x448.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55363 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-37" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-37-600x448.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-37" width="600" height="448" /></noscript></p>
+<p>Checking the moved backup, it is now stored in the Hardened Repository (<em>Hardened 01</em>&nbsp;in the example).</p>
+<p><img class="aligncenter wp-image-55365 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-38" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-38-600x248.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-38" width="600" height="248" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-38-600x248.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55365 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-38" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-38-600x248.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-38" width="600" height="248" /></noscript></p>
+<p>The migrated backup in the Hardened Repository.</p>
+<p><img class="aligncenter wp-image-55367 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-39" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-39-600x124.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-39" width="600" height="124" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-39-600x124.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55367 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-39" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-39-600x124.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-39" width="600" height="124" /></noscript></p>
+<p>Bear in mind that <strong>moved backups will be immutable</strong> for the retention configured in the <a href="https://nolabnoparty.com/en/veeam-v11-delete-backups-from-hardened-repository/">Hardened Repository</a>.</p>
+<p><img class="aligncenter wp-image-55373 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-40" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-40-600x73.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-40" width="600" height="73" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-40-600x73.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55373 size-large" title="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-40" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-40-600x73.jpg" alt="veeam-v12-sneak-peek-move-copy-backups-with-veeamover-40" width="600" height="73" /></noscript></p>
+<p>To verify if the backup is immutable, right click a VM contained in the just migrated backup and select <strong>Delete from disk</strong>.</p>
+<p><img class="aligncenter wp-image-55380 size-large entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-41" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-41-600x442.jpg" alt="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-41" width="600" height="442" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-41-600x442.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55380 size-large" title="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-41" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-41-600x442.jpg" alt="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-41" width="600" height="442" /></noscript></p>
+<p>The operation fails due to the Immutability set in the backup files.</p>
+<p><img class="aligncenter wp-image-55382 size-full entered lazyloaded" title="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-42" alt="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-42" width="589" height="450" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-42.jpg" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-42.jpg" data-ll-status="loaded"><noscript><img class="aligncenter wp-image-55382 size-full" title="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-42" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backup-with-veeamover-42.jpg" alt="veeam-v12-sneak-peek-move-copy-backup-with-veeamover-42" width="589" height="450" /></noscript></p>
+<p>VeeaMover is a great feature that <strong>simplified the backup management</strong> and allows the administrators to <strong>save a lot of time</strong>.</p>
+<p><img title="signature" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/firma.jpg" alt="signature" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/firma.jpg" data-ll-status="loaded" class="entered lazyloaded"><noscript><img title="signature" src="https://nolabnoparty.com/wp-content/uploads/images/firma.jpg" alt="signature" /></noscript></p>
+
+			<script type="text/javascript">
+			jQuery(document).ready(function( $) {
+				$.post( 'https://nolabnoparty.com/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '55145'});
+			});
+			</script>												</div>
+
+																										<div class="bottomad">
+															<!--  ads 728x90 google -->
+
+<div align="center">
+<script async="" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(7).txt"></script>
+<!-- horizontal - responsive -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-0937585939058205" data-ad-slot="9483126283" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_0_host" style="border: none; height: 280px; width: 680px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;" tabindex="0" title="Advertisement" aria-label="Advertisement"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:680px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="680" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ads.html" data-google-container-id="a!1" data-google-query-id="CJmXwprC6_sCFdfIFgUdhLYCVA" data-load-complete="true"></iframe></div></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>														</div>
+														<div class="shareit bottom modern">				<!-- Twitter -->
+				<span class="custom-share-item custom-twitterbutton">
+										<a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F&amp;text=Veeam%20v12:%20move%20or%20copy%20backups%20with%20VeeaMover&amp;url=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F&amp;via=nolabnoparty" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;"><span class="icon"><i class="fa fa-twitter"></i></span><span class="social-text">Tweet</span></a>
+				</span>
+								<!-- Facebook -->
+				<span class="custom-share-item custom-facebooksharebtn">
+					<a href="https://www.facebook.com/share.php?m2w&amp;s=100&amp;p[url]=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F&amp;p[images][0]=https%3A%2F%2Fnolabnoparty.com%2Fwp-content%2Fuploads%2F2022%2F11%2Fveeam-v12-sneak-peek-move-copy-backups-with-veeamover-01-1360x700.jpg&amp;p[title]=Veeam%20v12%3A%20move%20or%20copy%20backups%20with%20VeeaMover&amp;u=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F&amp;t=Veeam%20v12%3A%20move%20or%20copy%20backups%20with%20VeeaMover" class="facebook" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;"><span class="icon"><i class="fa fa-facebook"></i></span><span class="social-text">Share</span></a>
+				</span>
+								<!--Linkedin -->
+				<span class="custom-share-item custom-linkedinbtn">
+					<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F&amp;title=Veeam%20v12:%20move%20or%20copy%20backups%20with%20VeeaMover&amp;source=url" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;"><span class="icon"><i class="fa fa-linkedin"></i></span><span class="social-text">Share</span></a>
+				</span>
+								<span class="custom-share-item custom-pinbtn">
+					<a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F&amp;schema=Array&amp;description=Veeam%20v12:%20move%20or%20copy%20backups%20with%20VeeaMover" class="pinterest" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;">	<span class="icon"><i class="fa fa-pinterest"></i></span><span class="social-text">Pin it</span></a>
+				</span>
+								<!--WhatsApp -->
+				<span class="custom-share-item whatsapp">
+					<a href="https://wa.me/?text=Veeam%20v12:%20move%20or%20copy%20backups%20with%20VeeaMover%20https%3A%2F%2Fnolabnoparty.com%2Fen%2Fveeam-v12-move-or-copy-backups-with-veeamover%2F" onclick="javascript:window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;"><span class="icon"><i class="fa fa-whatsapp"></i></span><span class="social-text">WhatsApp</span></a>
+				</span>
+								<!-- Telegram -->
+				<span class="custom-share-item telegram">
+					<a href="javascript:window.open(&#39;https://telegram.me/share/url?url=&#39;+encodeURIComponent(window.location.href), &#39;_blank&#39;)"><span class="icon"><i class="fa fa-paper-plane"></i></span><span class="social-text">Telegram</span></a>
+				</span>
+				</div>											</div><!--.post-single-content-->
+										</div><!--.single_post-->
+										<div class="related-posts"><h4>Related Posts</h4><div class="clear">					<article class="latestPost excerpt ">
+													<a href="https://nolabnoparty.com/en/hpe-vm-explorer-6-1-5-ga/" title="HPE VM Explorer 6.1.5 is GA" id="featured-thumbnail">
+								<div class="featured-thumbnail"><img width="211" height="71" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/vmexplore615ga01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image entered lazyloaded" alt="HPE VM Explorer 6.1.5 is GA" title="HPE VM Explorer 6.1.5 is GA" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2016/07/vmexplore615ga01-211x71.jpg" data-ll-status="loaded"><noscript><img width="211" height="71" src="https://nolabnoparty.com/wp-content/uploads/2016/07/vmexplore615ga01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image" alt="HPE VM Explorer 6.1.5 is GA" title="HPE VM Explorer 6.1.5 is GA" loading="lazy" /></noscript></div>							</a>
+												<header>
+							<h2 class="title front-view-title"><a href="https://nolabnoparty.com/en/hpe-vm-explorer-6-1-5-ga/" title="HPE VM Explorer 6.1.5 is GA">HPE VM Explorer 6.1.5 is GA</a></h2>
+						</header>
+					</article><!--.post.excerpt-->
+										<article class="latestPost excerpt ">
+													<a href="https://nolabnoparty.com/en/trilead-vm-explorer-6-0-replication-pt-4/" title="Trilead VM Explorer 6.0 replication – pt.4" id="featured-thumbnail">
+								<div class="featured-thumbnail"><img width="211" height="71" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/trilead60replication01.jpg" class="attachment-schema-related size-schema-related wp-post-image entered lazyloaded" alt="Trilead VM Explorer 6.0 replication – pt.4" title="Trilead VM Explorer 6.0 replication – pt.4" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2015/12/trilead60replication01.jpg" data-ll-status="loaded"><noscript><img width="211" height="71" src="https://nolabnoparty.com/wp-content/uploads/2015/12/trilead60replication01.jpg" class="attachment-schema-related size-schema-related wp-post-image" alt="Trilead VM Explorer 6.0 replication – pt.4" title="Trilead VM Explorer 6.0 replication – pt.4" loading="lazy" /></noscript></div>							</a>
+												<header>
+							<h2 class="title front-view-title"><a href="https://nolabnoparty.com/en/trilead-vm-explorer-6-0-replication-pt-4/" title="Trilead VM Explorer 6.0 replication – pt.4">Trilead VM Explorer 6.0 replication – pt.4</a></h2>
+						</header>
+					</article><!--.post.excerpt-->
+										<article class="latestPost excerpt last">
+													<a href="https://nolabnoparty.com/en/veeam-cdp-replication-closeup/" title="Veeam CDP Replication close up" id="featured-thumbnail">
+								<div class="featured-thumbnail"><img width="211" height="71" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeamcdp01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image entered lazyloaded" alt="Veeam CDP Replication close up" title="Veeam CDP Replication close up" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2017/05/veeamcdp01-211x71.jpg" data-ll-status="loaded"><noscript><img width="211" height="71" src="https://nolabnoparty.com/wp-content/uploads/2017/05/veeamcdp01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image" alt="Veeam CDP Replication close up" title="Veeam CDP Replication close up" loading="lazy" /></noscript></div>							</a>
+												<header>
+							<h2 class="title front-view-title"><a href="https://nolabnoparty.com/en/veeam-cdp-replication-closeup/" title="Veeam CDP Replication close up">Veeam CDP Replication close up</a></h2>
+						</header>
+					</article><!--.post.excerpt-->
+										<article class="latestPost excerpt ">
+													<a href="https://nolabnoparty.com/en/veeam-9-5-direct-restore-to-azure-configure-veeam-pt2/" title="Veeam 9.5 Direct Restore to Azure: configure Veeam - pt.2" id="featured-thumbnail">
+								<div class="featured-thumbnail"><img width="211" height="71" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeamdirectrestoreazure01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image entered lazyloaded" alt="Veeam 9.5 Direct Restore to Azure: configure Veeam - pt.2" title="Veeam 9.5 Direct Restore to Azure: configure Veeam - pt.2" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2017/01/veeamdirectrestoreazure01-211x71.jpg" data-ll-status="loaded"><noscript><img width="211" height="71" src="https://nolabnoparty.com/wp-content/uploads/2017/01/veeamdirectrestoreazure01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image" alt="Veeam 9.5 Direct Restore to Azure: configure Veeam - pt.2" title="Veeam 9.5 Direct Restore to Azure: configure Veeam - pt.2" loading="lazy" /></noscript></div>							</a>
+												<header>
+							<h2 class="title front-view-title"><a href="https://nolabnoparty.com/en/veeam-9-5-direct-restore-to-azure-configure-veeam-pt2/" title="Veeam 9.5 Direct Restore to Azure: configure Veeam - pt.2">Veeam 9.5 Direct Restore to Azure: configure Veeam - pt.2</a></h2>
+						</header>
+					</article><!--.post.excerpt-->
+										<article class="latestPost excerpt ">
+													<a href="https://nolabnoparty.com/en/vembu-bdr-essentials-small-businesses/" title="Vembu BDR Essentials for small businesses" id="featured-thumbnail">
+								<div class="featured-thumbnail"><img width="211" height="71" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/vembu-bdr-essentials-01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image entered lazyloaded" alt="Vembu BDR Essentials for small businesses" title="Vembu BDR Essentials for small businesses" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2018/08/vembu-bdr-essentials-01-211x71.jpg" data-ll-status="loaded"><noscript><img width="211" height="71" src="https://nolabnoparty.com/wp-content/uploads/2018/08/vembu-bdr-essentials-01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image" alt="Vembu BDR Essentials for small businesses" title="Vembu BDR Essentials for small businesses" loading="lazy" /></noscript></div>							</a>
+												<header>
+							<h2 class="title front-view-title"><a href="https://nolabnoparty.com/en/vembu-bdr-essentials-small-businesses/" title="Vembu BDR Essentials for small businesses">Vembu BDR Essentials for small businesses</a></h2>
+						</header>
+					</article><!--.post.excerpt-->
+										<article class="latestPost excerpt last">
+													<a href="https://nolabnoparty.com/en/nakivo-backup-replication-7-4-beta-automated-vm-failover/" title="Nakivo Backup &amp; Replication 7.4 beta with automated VM Failover" id="featured-thumbnail">
+								<div class="featured-thumbnail"><img width="211" height="71" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/nakivo-backup-replication-7-4-vm-failover-01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image entered lazyloaded" alt="Nakivo Backup &amp; Replication 7.4 beta with automated VM Failover" title="Nakivo Backup &amp; Replication 7.4 beta with automated VM Failover" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2018/03/nakivo-backup-replication-7-4-vm-failover-01-211x71.jpg" data-ll-status="loaded"><noscript><img width="211" height="71" src="https://nolabnoparty.com/wp-content/uploads/2018/03/nakivo-backup-replication-7-4-vm-failover-01-211x71.jpg" class="attachment-schema-related size-schema-related wp-post-image" alt="Nakivo Backup &#038; Replication 7.4 beta with automated VM Failover" title="Nakivo Backup &#038; Replication 7.4 beta with automated VM Failover" loading="lazy" /></noscript></div>							</a>
+												<header>
+							<h2 class="title front-view-title"><a href="https://nolabnoparty.com/en/nakivo-backup-replication-7-4-beta-automated-vm-failover/" title="Nakivo Backup &amp; Replication 7.4 beta with automated VM Failover">Nakivo Backup &amp; Replication 7.4 beta with automated VM Failover</a></h2>
+						</header>
+					</article><!--.post.excerpt-->
+					</div></div>											<div class="postauthor">
+												<h4>About The Author</h4>
+												<img alt="" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/5845a7a6aba7f186fd21f34ef179e074.png" data-lazy-srcset="https://secure.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=200&amp;r=g 2x" class="avatar avatar-100 photo entered lazyloaded" height="100" width="100" data-lazy-src="https://secure.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=100&amp;r=g" data-ll-status="loaded" srcset="https://secure.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=200&amp;r=g 2x"><noscript><img alt='' src='https://secure.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=100&#038;r=g' srcset='https://secure.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=200&#038;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /></noscript>												<h5 class="vcard author"><a href="https://nolabnoparty.com/en/author/paolo-valsecchi/" class="fn">Paolo Valsecchi</a></h5>
+												<p><strong>System Engineer</strong>, VCP-DCV, VCP-DM, vExpert, VMCE, VMCA, Veeam Vanguard. Working experience focused on VMware vSphere, Microsoft Active Directory, and backup/DR solutions.</p>
+											</div>
+																</div><!--.g post-->
+							<div id="comments">
+		<h4 class="total-comments">2 Comments</h4>
+		<ol class="commentlist">
+					<li class="comment even thread-even depth-1" id="li-comment-52796">
+								<div id="comment-52796" itemscope="" itemtype="http://schema.org/UserComments">
+						<div class="comment-author vcard">
+							<img alt="" data-lazy-srcset="https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=160&amp;r=g 2x" class="avatar avatar-80 photo loading" height="80" width="80" data-lazy-src="https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=80&amp;r=g" data-src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2080%2080&#39;%3E%3C/svg%3E"><noscript><img alt='' src='https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=80&#038;r=g' srcset='https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=160&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript>							<span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">VeeamNewbie</span></span>															<span class="ago">22/11/2022</span>
+														<span class="comment-meta">
+															</span>
+						</div>
+												<div class="commentmetadata">
+							<div class="commenttext" itemprop="commentText">
+								<p>Very interesting addition of features. Hopefully they will add more features on the VBaZ as I feel it is not flexible enough in certain scenarios.</p>
+							</div>
+							<div class="reply">
+								<a rel="nofollow" class="comment-reply-link" href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#comment-52796" data-commentid="52796" data-postid="55145" data-belowelement="comment-52796" data-respondelement="respond" data-replyto="Reply to VeeamNewbie" aria-label="Reply to VeeamNewbie">Reply</a>							</div>
+						</div>
+					</div>
+					</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-52797">
+								<div id="comment-52797" itemscope="" itemtype="http://schema.org/UserComments">
+						<div class="comment-author vcard">
+							<img alt="" data-lazy-srcset="https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=160&amp;r=g 2x" class="avatar avatar-80 photo loading" height="80" width="80" data-lazy-src="https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=80&amp;r=g" data-src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2080%2080&#39;%3E%3C/svg%3E"><noscript><img alt='' src='https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=80&#038;r=g' srcset='https://secure.gravatar.com/avatar/2e62b6f6cab217f21b23b2f147fc6ba2?s=160&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript>							<span class="fn" itemprop="creator" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">VeeamNewbie</span></span>															<span class="ago">22/11/2022</span>
+														<span class="comment-meta">
+															</span>
+						</div>
+												<div class="commentmetadata">
+							<div class="commenttext" itemprop="commentText">
+								<p>I am a fan of your website. This helped me a lot in configuring the Immutability feature. Is there any way I can reach you by email if I have doubts? That would be of great help. Thanks</p>
+							</div>
+							<div class="reply">
+								<a rel="nofollow" class="comment-reply-link" href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#comment-52797" data-commentid="52797" data-postid="55145" data-belowelement="comment-52797" data-respondelement="respond" data-replyto="Reply to VeeamNewbie" aria-label="Reply to VeeamNewbie">Reply</a>							</div>
+						</div>
+					</div>
+					</li><!-- #comment-## -->
+		</ol>
+	</div>
+
+	<div id="commentsAdd">
+		<div id="respond" class="box m-t-6">
+				<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#respond" style="display:none;">Cancel Reply</a></small></h3><form action="https://nolabnoparty.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="6" aria-required="true" placeholder="Comment Text*"></textarea></p><input name="wpml_language_code" type="hidden" value="en"><p class="comment-form-author"><input id="author" name="author" aria-required="true" placeholder="Name*" size="35"></p>
+<p class="comment-form-email"><input id="email" name="email" aria-required="true" placeholder="Email*" size="35"></p>
+<p class="comment-form-url"><input id="url" name="url" placeholder="Website" size="35"></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="55145" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="763b9e9f5b"></p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1670553486700"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+			</div>
+
+	</div>
+		</div>
+	</article>
+		<aside id="sidebar" class="sidebar c-4-12 mts-sidebar-sidebar" role="complementary" itemscope="" itemtype="http://schema.org/WPSideBar">
+		<div id="custom_html-20" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--   AWARDS  -->
+
+<div align="center">
+
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/awards_sidebar.png" usemap="#image-map" alt="awards" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/awards_sidebar.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/awards_sidebar.png" usemap="#image-map" alt="awards"></noscript>
+
+<map name="image-map">
+	<area target="_self" alt="topvblog" title="top vblog" href="https://nolabnoparty.com/en/top-vblog-2018-results-nolabnoparty-spot-40/" coords="73,286,70" shape="circle">
+	<area target="_blank" alt="top25vblog" title="top 25 vblog" href="https://blog.feedspot.com/virtualization_blogs/" coords="217,304,55" shape="circle">
+</map>
+
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/influencer.png" alt="influencer" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/influencer.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/influencer.png"  alt="influencer"></noscript>
+	
+</div></div></div><div id="icl_lang_sel_widget-2" class="widget widget_icl_lang_sel_widget">
+<div class="lang_sel_list_horizontal wpml-ls-sidebars-sidebar wpml-ls wpml-ls-legacy-list-horizontal" id="lang_sel_list">
+	<ul><li class="icl-en wpml-ls-slot-sidebar wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/" class="wpml-ls-link">
+                                <img class="wpml-ls-flag iclflag entered lazyloaded" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/en.png" alt="" data-lazy-src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" data-ll-status="loaded"><noscript><img
+            class="wpml-ls-flag iclflag"
+            src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt=""
+            
+            
+    /></noscript><span class="wpml-ls-native icl_lang_sel_native">English</span></a>
+			</li><li class="icl-it wpml-ls-slot-sidebar wpml-ls-item wpml-ls-item-it wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://nolabnoparty.com/veeam-v12-spostare-o-copiare-backup-con-veeamover/" class="wpml-ls-link">
+                                <img class="wpml-ls-flag iclflag entered lazyloaded" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/it.png" alt="" data-lazy-src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png" data-ll-status="loaded"><noscript><img
+            class="wpml-ls-flag iclflag"
+            src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png"
+            alt=""
+            
+            
+    /></noscript><span class="wpml-ls-native icl_lang_sel_native" lang="it">Italiano</span></a>
+			</li></ul>
+</div>
+</div><div id="search-4" class="widget widget_search"><h3 class="widget-title">Search</h3>
+<form method="get" id="searchform" class="search-form" action="https://nolabnoparty.com/en/" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="" placeholder="Search the site">
+		<button id="search-image" class="sbutton" type="submit" value="Search">Search</button>
+	</fieldset>
+</form>
+</div><div id="custom_html-12" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--   social networks  -->
+
+<div align="center">
+<a href="https://twitter.com/nolabnoparty" target="_blank" rel="noopener"><img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/twitter.png" style="margin-right: 10px;" alt="twitter" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/twitter.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/twitter.png" style="margin-right: 10px;" alt="twitter"></noscript></a>
+
+<a href="https://www.facebook.com/nolabnoparty" target="_blank" rel="noopener"><img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/facebook.png" style="margin-right: 10px;" alt="facebook" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/facebook.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/facebook.png" style="margin-right: 10px;" alt="facebook"></noscript></a>
+	
+	<a href="https://www.youtube.com/@ittechpills" target="_blank" rel="noopener"><img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/youtube.png" style="margin-right: 10px;" alt="youtube" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/youtube.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/youtube.png" style="margin-right: 10px;" alt="youtube"></noscript></a>
+
+<a href="https://it.linkedin.com/in/paolovalsecchi" target="_blank" rel="noopener"><img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/linkedin.png" style="margin-right: 10px;" alt="linkedin" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/linkedin.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/linkedin.png" style="margin-right: 10px;" alt="linkedin"></noscript></a>
+
+<a href="https://nolabnoparty.com/feed/" target="_blank" rel="noopener"><img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/rss_ita.png" style="margin-right: 10px;" alt="rssita" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/rss_ita.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/rss_ita.png" style="margin-right: 10px;" alt="rssita"></noscript></a>
+
+<a href="https://nolabnoparty.com/en/feed/" target="_blank" rel="noopener"><img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/rss_eng.png" style="margin-right: 10px;" alt="rsseng" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/rss_eng.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/rss_eng.png" style="margin-right: 10px;" alt="rsseng"></noscript></a>
+</div></div></div><div id="custom_html-24" class="widget_text widget widget_custom_html"><h3 class="widget-title">NEWSLETTER</h3><div class="textwidget custom-html-widget"><!--  ENG -->
+
+<style>
+.form-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px);
+  max-width: none;
+  border-radius: 6px;
+  box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25);
+}
+.form-preview,
+.form-preview *{
+  box-sizing: border-box;
+}
+.form-preview .preview-heading {
+  width: 100%;
+}
+.form-preview .preview-heading h5{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.form-preview .preview-input-field {
+  margin-top: 20px;
+  width: 100%;
+}
+.form-preview .preview-input-field input {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid #e9e8e8;
+  background-color: #fff;
+  outline: none;
+}
+.form-preview .preview-input-field input {
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+.form-preview .preview-input-field input::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+.form-preview .preview-input-field input:-ms-input-placeholder {
+  color: #000000;
+}
+
+.form-preview .preview-input-field input::-ms-input-placeholder {
+  color: #000000;
+}
+.form-preview .preview-submit-button {
+  margin-top: 10px;
+  width: 100%;
+}
+.form-preview .preview-submit-button button {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 6px;
+  line-height: 0px;
+}
+.form-preview .preview-submit-button button:hover {
+  cursor: pointer;
+}
+</style><form data-v-2eba2140="" action="https://api.follow.it/subscription-form/Mkp5L25pbEVhR0tqMG5odktXbDdINUxrS2VnRndDY012VkE3c3pZTEwwMGlUU0xCa1VubnhTek5FWXdPMlRCRWl0TjRyYlpGemhnb2ViVjY3ZDFod0VuTWc2YVRQTUNLU2F6WC84RGlLcWZpY0ZhQTNzeHU5UkR6V0R0VWE4UTJ8Z2JNT2xCbDJ5dHYwN1VxSlh4Zml1R015Z3N3RGw0WEJKREEvVGJuUEJSST0=/8" method="post"><div data-v-2eba2140="" class="form-preview" style="background-color: rgb(132, 199, 247); border-style: solid; border-width: 1px; border-color: rgb(61, 101, 245); position: relative;"><div data-v-2eba2140="" class="preview-heading"><h5 data-v-2eba2140="" style="text-transform: none !important; font-family: Helvetica; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center;">Get new posts by email:</h5></div> <div data-v-2eba2140="" class="preview-input-field"><input data-v-2eba2140="" type="email" name="email" required="required" placeholder="Enter your email" spellcheck="false" style="text-transform: none !important; font-family: Helvetica; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255);"></div> <div data-v-2eba2140="" class="preview-submit-button"><button data-v-2eba2140="" type="submit" style="text-transform: none !important; font-family: Helvetica; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(246, 14, 14);">Subscribe</button></div></div></form></div></div><div id="custom_html-4" class="widget_text widget widget_custom_html"><h3 class="widget-title">SPONSOR</h3><div class="textwidget custom-html-widget"><!--  ads 300x250 starwind -->
+
+<div align="center">
+<a href="https://www.starwindsoftware.com/g2-fall-2022-reports-for-hci-solutions?utm_source=nolabnoparty.com&amp;utm_medium=banner&amp;utm_campaign=g2_report&amp;utm_content=300_250" target="_blank" rel="noopener">
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_starwind_300x250.png" alt="starwind" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_starwind_300x250.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_starwind_300x250.png" alt="starwind"></noscript>
+</a>
+</div></div></div><div id="custom_html-26" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--  ads 300x250 altaro -->
+<div align="center">
+<a href="https://www.altaro.com/vm-backup/?LP=nolabnoparty-sc-Banner-AVB50k_300x250Banner&amp;Cat=SC&amp;utm_source=nolabnoparty&amp;utm_medium=sc&amp;utm_campaign=AVB50k_300x250Banner&amp;utm_content=banner" target="_blank" rel="noopener">
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_altaro_300x250.png" alt="altaro" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_altaro_300x250.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_altaro_300x250.png" alt="altaro"></noscript>
+</a>
+</div></div></div><div id="custom_html-32" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--  ads 300x250 starwind -->
+<div align="center">
+<ins class="dcmads" style="display: inline-block; width: 300px; height: 250px; text-decoration: none;" data-dcm-placement="N410401.1987921NOLABNOPARTY.COM/B10788752.144275288" data-dcm-rendering-mode="iframe" data-dcm-https-only="" data-dcm-resettable-device-id="" data-dcm-app-id="" data-dcm-processed="y">
+  <script src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/dcmads.js.download"></script><script src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/impl_v92.js.download"></script><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" title="advertisement" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/B10788752.html" allow="attribution-reporting" style="width: 100%; height: 100%; border: 0px; margin: 0px; padding: 0px;"></iframe>
+</ins>
+</div></div></div><div id="custom_html-29" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--  ads 300x250 nakivo  -->
+<div align="center">
+<a href="https://www.nakivo.com/microsoft-office-365-backup/?utm_source=nolabnoparty&amp;utm_medium=banner%20ad&amp;utm_campaign=Office%20365" target="_blank" rel="noopener">
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_nakivo_300x250.png" alt="nakivo" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_nakivo_300x250.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_nakivo_300x250.png" alt="nakivo"></noscript>
+</a>
+</div></div></div><div id="custom_html-27" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--  ads 300x250 vembu -->
+<div align="center">
+<a href="https://www.vembu.com/vembu-bdr-suite-download/" target="_blank" rel="noopener">
+<img alt="vembu" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_vembu_300x250.png" class="entered lazyloaded" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_vembu_300x250.png" data-ll-status="loaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_vembu_300x250.png" alt="vembu"></noscript>
+</a>
+</div></div></div><div id="custom_html-31" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--  ads 300x250 vinchin -->
+<div align="center">
+<a href="https://www.vinchin.com/en/product/vm-backup-and-recovery.html?utm_source=nolabnoparty&amp;utm_position=sidebar&amp;ad_uuid=4a0ba54d-44a8-d74e-ff91-f5ec11f23dbf" target="_blank" rel="noopener">
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_vinchin_300x250.jpg" alt="vinchin" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_vinchin_300x250.jpg" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_vinchin_300x250.jpg" alt="vinchin"></noscript>
+</a>
+</div></div></div><div id="custom_html-21" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--  ads 300x250 wasabi  -->
+
+<div align="center">
+<a href="https://wasabi.com//?utm_source=influencer&amp;utm_medium=blog&amp;utm_campaign=influencer-testing" target="_blank" rel="noopener">
+<img src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ad_wasabi_300x250.jpg" alt="wasabi" title="wasabi" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/ad_wasabi_300x250.jpg" data-ll-status="loaded" class="entered lazyloaded"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/ad_wasabi_300x250.jpg" alt="wasabi" title="wasabi"></noscript>
+</a>
+</div></div></div><div id="categories-3" class="widget widget_categories"><h3 class="widget-title">Categories</h3><form action="https://nolabnoparty.com/en/" method="get"><label class="screen-reader-text" for="cat">Categories</label><select name="cat" id="cat" class="postform">
+	<option value="-1">Select Category</option>
+	<option class="level-0" value="2138">backup&nbsp;&nbsp;(283)</option>
+	<option class="level-1" value="1636">&nbsp;&nbsp;&nbsp;altaro&nbsp;&nbsp;(35)</option>
+	<option class="level-1" value="1917">&nbsp;&nbsp;&nbsp;bacula&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2086">&nbsp;&nbsp;&nbsp;iperius&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="1484">&nbsp;&nbsp;&nbsp;microfocus&nbsp;&nbsp;(21)</option>
+	<option class="level-1" value="1697">&nbsp;&nbsp;&nbsp;nakivo&nbsp;&nbsp;(68)</option>
+	<option class="level-1" value="2139">&nbsp;&nbsp;&nbsp;recoverpoint&nbsp;&nbsp;(9)</option>
+	<option class="level-1" value="933">&nbsp;&nbsp;&nbsp;veeam&nbsp;&nbsp;(118)</option>
+	<option class="level-1" value="1766">&nbsp;&nbsp;&nbsp;vembu&nbsp;&nbsp;(23)</option>
+	<option class="level-1" value="2460">&nbsp;&nbsp;&nbsp;vinchin&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="534">messaging&nbsp;&nbsp;(14)</option>
+	<option class="level-1" value="539">&nbsp;&nbsp;&nbsp;lotus domino&nbsp;&nbsp;(9)</option>
+	<option class="level-1" value="650">&nbsp;&nbsp;&nbsp;mail services&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1052">&nbsp;&nbsp;&nbsp;zimbra&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1065">microsoft&nbsp;&nbsp;(51)</option>
+	<option class="level-1" value="913">&nbsp;&nbsp;&nbsp;active directory&nbsp;&nbsp;(20)</option>
+	<option class="level-1" value="916">&nbsp;&nbsp;&nbsp;mssql&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="917">&nbsp;&nbsp;&nbsp;office&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1721">&nbsp;&nbsp;&nbsp;office 365&nbsp;&nbsp;(23)</option>
+	<option class="level-1" value="918">&nbsp;&nbsp;&nbsp;windows 7&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="919">&nbsp;&nbsp;&nbsp;windows server&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="898">monitoring&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="899">&nbsp;&nbsp;&nbsp;data analysis&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="901">&nbsp;&nbsp;&nbsp;nagios&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="902">&nbsp;&nbsp;&nbsp;plugins&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1431">networking&nbsp;&nbsp;(12)</option>
+	<option class="level-1" value="909">&nbsp;&nbsp;&nbsp;antivirus&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="924">&nbsp;&nbsp;&nbsp;applications&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="911">&nbsp;&nbsp;&nbsp;firewall&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="892">&nbsp;&nbsp;&nbsp;linux&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1469">&nbsp;&nbsp;&nbsp;storage&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="903">vmware&nbsp;&nbsp;(499)</option>
+	<option class="level-1" value="1837">&nbsp;&nbsp;&nbsp;aws&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="2121">&nbsp;&nbsp;&nbsp;dell-emc&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="1025">&nbsp;&nbsp;&nbsp;horizon&nbsp;&nbsp;(51)</option>
+	<option class="level-1" value="1550">&nbsp;&nbsp;&nbsp;opvizor&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="987">&nbsp;&nbsp;&nbsp;pernixdata&nbsp;&nbsp;(20)</option>
+	<option class="level-1" value="1729">&nbsp;&nbsp;&nbsp;runecast&nbsp;&nbsp;(25)</option>
+	<option class="level-1" value="1787">&nbsp;&nbsp;&nbsp;starwind&nbsp;&nbsp;(24)</option>
+	<option class="level-1" value="1497">&nbsp;&nbsp;&nbsp;turbonomic&nbsp;&nbsp;(18)</option>
+	<option class="level-1" value="2128">&nbsp;&nbsp;&nbsp;vrealize&nbsp;&nbsp;(14)</option>
+	<option class="level-1" value="1853">&nbsp;&nbsp;&nbsp;vsan&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="1384">&nbsp;&nbsp;&nbsp;vsphere 5&nbsp;&nbsp;(42)</option>
+	<option class="level-1" value="1511">&nbsp;&nbsp;&nbsp;vsphere 6&nbsp;&nbsp;(32)</option>
+	<option class="level-1" value="1758">&nbsp;&nbsp;&nbsp;vsphere 6.5&nbsp;&nbsp;(33)</option>
+	<option class="level-1" value="1864">&nbsp;&nbsp;&nbsp;vSphere 6.7&nbsp;&nbsp;(21)</option>
+	<option class="level-1" value="2193">&nbsp;&nbsp;&nbsp;vsphere 7&nbsp;&nbsp;(2)</option>
+</select>
+</form>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+			</div><div id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+		<select id="archives-dropdown-2" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value="https://nolabnoparty.com/en/2022/12/"> December 2022 &nbsp;(1)</option>
+	<option value="https://nolabnoparty.com/en/2022/11/"> November 2022 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2022/10/"> October 2022 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2022/09/"> September 2022 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2022/08/"> August 2022 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2022/07/"> July 2022 &nbsp;(2)</option>
+	<option value="https://nolabnoparty.com/en/2022/06/"> June 2022 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2022/05/"> May 2022 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2022/04/"> April 2022 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2022/03/"> March 2022 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2022/02/"> February 2022 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2022/01/"> January 2022 &nbsp;(2)</option>
+	<option value="https://nolabnoparty.com/en/2021/12/"> December 2021 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2021/11/"> November 2021 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2021/10/"> October 2021 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2021/09/"> September 2021 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2021/08/"> August 2021 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2021/07/"> July 2021 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2021/06/"> June 2021 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2021/05/"> May 2021 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2021/04/"> April 2021 &nbsp;(9)</option>
+	<option value="https://nolabnoparty.com/en/2021/03/"> March 2021 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2021/02/"> February 2021 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2021/01/"> January 2021 &nbsp;(2)</option>
+	<option value="https://nolabnoparty.com/en/2020/12/"> December 2020 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2020/11/"> November 2020 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2020/10/"> October 2020 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2020/09/"> September 2020 &nbsp;(10)</option>
+	<option value="https://nolabnoparty.com/en/2020/08/"> August 2020 &nbsp;(9)</option>
+	<option value="https://nolabnoparty.com/en/2020/07/"> July 2020 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2020/06/"> June 2020 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2020/05/"> May 2020 &nbsp;(3)</option>
+	<option value="https://nolabnoparty.com/en/2020/04/"> April 2020 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2020/03/"> March 2020 &nbsp;(10)</option>
+	<option value="https://nolabnoparty.com/en/2020/02/"> February 2020 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2020/01/"> January 2020 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2019/12/"> December 2019 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2019/11/"> November 2019 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2019/10/"> October 2019 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2019/09/"> September 2019 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2019/08/"> August 2019 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2019/07/"> July 2019 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2019/06/"> June 2019 &nbsp;(1)</option>
+	<option value="https://nolabnoparty.com/en/2019/05/"> May 2019 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2019/04/"> April 2019 &nbsp;(3)</option>
+	<option value="https://nolabnoparty.com/en/2019/03/"> March 2019 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2019/02/"> February 2019 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2019/01/"> January 2019 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2018/12/"> December 2018 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2018/11/"> November 2018 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2018/10/"> October 2018 &nbsp;(9)</option>
+	<option value="https://nolabnoparty.com/en/2018/09/"> September 2018 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2018/08/"> August 2018 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2018/07/"> July 2018 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2018/06/"> June 2018 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2018/05/"> May 2018 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2018/04/"> April 2018 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2018/03/"> March 2018 &nbsp;(11)</option>
+	<option value="https://nolabnoparty.com/en/2018/02/"> February 2018 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2018/01/"> January 2018 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2017/12/"> December 2017 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2017/11/"> November 2017 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2017/10/"> October 2017 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2017/09/"> September 2017 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2017/08/"> August 2017 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2017/07/"> July 2017 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2017/06/"> June 2017 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2017/05/"> May 2017 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2017/04/"> April 2017 &nbsp;(2)</option>
+	<option value="https://nolabnoparty.com/en/2017/03/"> March 2017 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2017/02/"> February 2017 &nbsp;(9)</option>
+	<option value="https://nolabnoparty.com/en/2017/01/"> January 2017 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2016/12/"> December 2016 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2016/11/"> November 2016 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2016/10/"> October 2016 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2016/09/"> September 2016 &nbsp;(3)</option>
+	<option value="https://nolabnoparty.com/en/2016/08/"> August 2016 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2016/07/"> July 2016 &nbsp;(11)</option>
+	<option value="https://nolabnoparty.com/en/2016/06/"> June 2016 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2016/05/"> May 2016 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2016/04/"> April 2016 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2016/03/"> March 2016 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2016/02/"> February 2016 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2016/01/"> January 2016 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2015/12/"> December 2015 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2015/11/"> November 2015 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2015/10/"> October 2015 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2015/09/"> September 2015 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2015/08/"> August 2015 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2015/07/"> July 2015 &nbsp;(7)</option>
+	<option value="https://nolabnoparty.com/en/2015/06/"> June 2015 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2015/05/"> May 2015 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2015/04/"> April 2015 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2015/03/"> March 2015 &nbsp;(12)</option>
+	<option value="https://nolabnoparty.com/en/2015/02/"> February 2015 &nbsp;(9)</option>
+	<option value="https://nolabnoparty.com/en/2015/01/"> January 2015 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2014/12/"> December 2014 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2014/11/"> November 2014 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2014/10/"> October 2014 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2014/09/"> September 2014 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2014/08/"> August 2014 &nbsp;(1)</option>
+	<option value="https://nolabnoparty.com/en/2014/07/"> July 2014 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2014/06/"> June 2014 &nbsp;(8)</option>
+	<option value="https://nolabnoparty.com/en/2014/05/"> May 2014 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2014/04/"> April 2014 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2014/03/"> March 2014 &nbsp;(3)</option>
+	<option value="https://nolabnoparty.com/en/2014/02/"> February 2014 &nbsp;(3)</option>
+	<option value="https://nolabnoparty.com/en/2014/01/"> January 2014 &nbsp;(1)</option>
+	<option value="https://nolabnoparty.com/en/2013/12/"> December 2013 &nbsp;(3)</option>
+	<option value="https://nolabnoparty.com/en/2013/11/"> November 2013 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2013/10/"> October 2013 &nbsp;(11)</option>
+	<option value="https://nolabnoparty.com/en/2013/09/"> September 2013 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2013/07/"> July 2013 &nbsp;(6)</option>
+	<option value="https://nolabnoparty.com/en/2013/06/"> June 2013 &nbsp;(2)</option>
+	<option value="https://nolabnoparty.com/en/2013/05/"> May 2013 &nbsp;(5)</option>
+	<option value="https://nolabnoparty.com/en/2013/04/"> April 2013 &nbsp;(3)</option>
+	<option value="https://nolabnoparty.com/en/2013/03/"> March 2013 &nbsp;(4)</option>
+	<option value="https://nolabnoparty.com/en/2012/12/"> December 2012 &nbsp;(1)</option>
+	<option value="https://nolabnoparty.com/en/2012/03/"> March 2012 &nbsp;(1)</option>
+	<option value="https://nolabnoparty.com/en/2011/11/"> November 2011 &nbsp;(1)</option>
+
+		</select>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-2" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</div><div id="mts_popular_posts_widget-2" class="widget widget_mts_popular_posts_widget horizontal-small"><h3 class="widget-title">Most popular</h3><ul class="popular-posts">				<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/" title="Veeam v12: move or copy backups with VeeaMover">
+							<img width="70" height="23" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="Veeam v12: move or copy backups with VeeaMover" title="Veeam v12: move or copy backups with VeeaMover" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Veeam v12: move or copy backups with VeeaMover" title="Veeam v12: move or copy backups with VeeaMover" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/" title="Veeam v12: move or copy backups with VeeaMover">Veeam v12: move or copy backups with&nbsp;…</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/rto-vs-rpo-whats-the-difference/" title="RTO vs RPO, what&#39;s the difference?">
+							<img width="70" height="23" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/rto-vs-rpo-whats-the-difference-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="RTO vs RPO, what&#39;s the difference?" title="RTO vs RPO, what&#39;s the difference?" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/10/rto-vs-rpo-whats-the-difference-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/10/rto-vs-rpo-whats-the-difference-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="RTO vs RPO, what&#039;s the difference?" title="RTO vs RPO, what&#039;s the difference?" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/rto-vs-rpo-whats-the-difference/" title="RTO vs RPO, what&#39;s the difference?">RTO vs RPO, what's the difference?</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/a-complete-guide-to-server-migration/" title="A complete guide to Server Migration">
+							<img width="70" height="23" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/nakivo-complete-guide-server-migration-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="A complete guide to Server Migration" title="A complete guide to Server Migration" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/nakivo-complete-guide-server-migration-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/nakivo-complete-guide-server-migration-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="A complete guide to Server Migration" title="A complete guide to Server Migration" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/a-complete-guide-to-server-migration/" title="A complete guide to Server Migration">A complete guide to Server Migration</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/10-tips-to-secure-veeam-backup-server/" title="10 tips to secure Veeam Backup Server">
+							<img width="70" height="23" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ten-tips-to-secure-veeam-backup-server-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="10 tips to secure Veeam Backup Server" title="10 tips to secure Veeam Backup Server" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/ten-tips-to-secure-veeam-backup-server-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/ten-tips-to-secure-veeam-backup-server-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="10 tips to secure Veeam Backup Server" title="10 tips to secure Veeam Backup Server" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/10-tips-to-secure-veeam-backup-server/" title="10 tips to secure Veeam Backup Server">10 tips to secure Veeam Backup Server</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/veeam-v11-backup-to-google-cloud-storage/" title="Veeam v11: backup to Google Cloud Storage">
+							<img width="70" height="23" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/veeam-backup-to-google-cloud-storage-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="Veeam v11: backup to Google Cloud Storage" title="Veeam v11: backup to Google Cloud Storage" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/10/veeam-backup-to-google-cloud-storage-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/10/veeam-backup-to-google-cloud-storage-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Veeam v11: backup to Google Cloud Storage" title="Veeam v11: backup to Google Cloud Storage" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/veeam-v11-backup-to-google-cloud-storage/" title="Veeam v11: backup to Google Cloud Storage">Veeam v11: backup to Google Cloud Storage</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/hornetsecurity-cyber-security-roundtable-2022/" title="Hornetsecurity: Cyber Security Roundtable 2022">
+							<img width="70" height="23" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/hornetsecurity-cyber-security-roundtable-2022-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="Hornetsecurity: Cyber Security Roundtable 2022" title="Hornetsecurity: Cyber Security Roundtable 2022" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/hornetsecurity-cyber-security-roundtable-2022-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/hornetsecurity-cyber-security-roundtable-2022-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Hornetsecurity: Cyber Security Roundtable 2022" title="Hornetsecurity: Cyber Security Roundtable 2022" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/hornetsecurity-cyber-security-roundtable-2022/" title="Hornetsecurity: Cyber Security Roundtable 2022">Hornetsecurity: Cyber Security Roundtable 2022</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/recoverpoint-v5-3-all-of-your-vrpa-clusters-are-unauthorized-error/" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error">
+							<img width="70" height="23" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/10/recoverpoint-vrpa-clusters-are-unauthorized-error-01-70x23.jpg" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/recoverpoint-vrpa-clusters-are-unauthorized-error-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/10/recoverpoint-vrpa-clusters-are-unauthorized-error-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/recoverpoint-v5-3-all-of-your-vrpa-clusters-are-unauthorized-error/" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error">RecoverPoint v5.3: "All of your vRPA clusters&nbsp;…</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/nakivo-10-7-2-with-vmware-vsphere-8-support/" title="Nakivo 10.7.2 with VMware vSphere 8 support">
+							<img width="70" height="23" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image entered lazyloaded" alt="Nakivo 10.7.2 with VMware vSphere 8 support" title="Nakivo 10.7.2 with VMware vSphere 8 support" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/12/nakivo-10-7-2-with-vsphere-support-8-01-70x23.jpg" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/nakivo-10-7-2-with-vsphere-support-8-01-70x23.jpg" data-ll-status="loaded"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/12/nakivo-10-7-2-with-vsphere-support-8-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Nakivo 10.7.2 with VMware vSphere 8 support" title="Nakivo 10.7.2 with VMware vSphere 8 support" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/nakivo-10-7-2-with-vmware-vsphere-8-support/" title="Nakivo 10.7.2 with VMware vSphere 8 support">Nakivo 10.7.2 with VMware vSphere 8 support</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>			</ul>
+</div><div id="custom_html-30" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!--  ads 300x250 google  -->
+<div align="center">
+<script async="" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/f(7).txt"></script>
+<!-- Ads_300x250 -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-0937585939058205" data-ad-slot="7340812737" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_1_host" style="border: none; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;" tabindex="0" title="Advertisement" aria-label="Advertisement"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ads(1).html" data-google-container-id="a!2" data-google-query-id="CLKT093A6_sCFczJFgUdRO8AWg" data-load-complete="true"></iframe></div></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div></div>	</aside><!--#sidebar-->
+	</div><!--#page-->
+			<footer id="site-footer" role="contentinfo" itemscope="" itemtype="http://schema.org/WPFooter">
+												<div class="footer-widgets first-footer-widgets widgets-num-3">
+						<div class="container">
+													<div class="f-widget f-widget-1">
+								<div id="mts_recent_posts_widget-2" class="widget widget_mts_recent_posts_widget horizontal-small"><h3 class="widget-title">Latest posts</h3><ul class="advanced-recent-posts">				<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/nakivo-10-7-2-with-vmware-vsphere-8-support/" title="Nakivo 10.7.2 with VMware vSphere 8 support">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Nakivo 10.7.2 with VMware vSphere 8 support" title="Nakivo 10.7.2 with VMware vSphere 8 support" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/12/nakivo-10-7-2-with-vsphere-support-8-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/12/nakivo-10-7-2-with-vsphere-support-8-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Nakivo 10.7.2 with VMware vSphere 8 support" title="Nakivo 10.7.2 with VMware vSphere 8 support" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/nakivo-10-7-2-with-vmware-vsphere-8-support/" title="Nakivo 10.7.2 with VMware vSphere 8 support">Nakivo 10.7.2 with VMware vSphere 8 support</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/recoverpoint-v5-3-all-of-your-vrpa-clusters-are-unauthorized-error/" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/10/recoverpoint-vrpa-clusters-are-unauthorized-error-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/10/recoverpoint-vrpa-clusters-are-unauthorized-error-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/recoverpoint-v5-3-all-of-your-vrpa-clusters-are-unauthorized-error/" title="RecoverPoint v5.3: &quot;All of your vRPA clusters are unauthorized&quot; error">RecoverPoint v5.3: "All of your vRPA clusters are unauthorized" error</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/hornetsecurity-cyber-security-roundtable-2022/" title="Hornetsecurity: Cyber Security Roundtable 2022">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Hornetsecurity: Cyber Security Roundtable 2022" title="Hornetsecurity: Cyber Security Roundtable 2022" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/hornetsecurity-cyber-security-roundtable-2022-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/hornetsecurity-cyber-security-roundtable-2022-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Hornetsecurity: Cyber Security Roundtable 2022" title="Hornetsecurity: Cyber Security Roundtable 2022" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/hornetsecurity-cyber-security-roundtable-2022/" title="Hornetsecurity: Cyber Security Roundtable 2022">Hornetsecurity: Cyber Security Roundtable 2022</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/veeam-v11-backup-to-google-cloud-storage/" title="Veeam v11: backup to Google Cloud Storage">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Veeam v11: backup to Google Cloud Storage" title="Veeam v11: backup to Google Cloud Storage" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/10/veeam-backup-to-google-cloud-storage-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/10/veeam-backup-to-google-cloud-storage-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Veeam v11: backup to Google Cloud Storage" title="Veeam v11: backup to Google Cloud Storage" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/veeam-v11-backup-to-google-cloud-storage/" title="Veeam v11: backup to Google Cloud Storage">Veeam v11: backup to Google Cloud Storage</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/10-tips-to-secure-veeam-backup-server/" title="10 tips to secure Veeam Backup Server">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="10 tips to secure Veeam Backup Server" title="10 tips to secure Veeam Backup Server" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/ten-tips-to-secure-veeam-backup-server-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/ten-tips-to-secure-veeam-backup-server-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="10 tips to secure Veeam Backup Server" title="10 tips to secure Veeam Backup Server" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/10-tips-to-secure-veeam-backup-server/" title="10 tips to secure Veeam Backup Server">10 tips to secure Veeam Backup Server</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/a-complete-guide-to-server-migration/" title="A complete guide to Server Migration">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="A complete guide to Server Migration" title="A complete guide to Server Migration" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/nakivo-complete-guide-server-migration-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/nakivo-complete-guide-server-migration-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="A complete guide to Server Migration" title="A complete guide to Server Migration" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/a-complete-guide-to-server-migration/" title="A complete guide to Server Migration">A complete guide to Server Migration</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/" title="Veeam v12: move or copy backups with VeeaMover">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Veeam v12: move or copy backups with VeeaMover" title="Veeam v12: move or copy backups with VeeaMover" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/11/veeam-v12-sneak-peek-move-copy-backups-with-veeamover-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Veeam v12: move or copy backups with VeeaMover" title="Veeam v12: move or copy backups with VeeaMover" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/" title="Veeam v12: move or copy backups with VeeaMover">Veeam v12: move or copy backups with VeeaMover</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://nolabnoparty.com/en/rto-vs-rpo-whats-the-difference/" title="RTO vs RPO, what&#39;s the difference?">
+							<img width="70" height="23" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2070%2023&#39;%3E%3C/svg%3E" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="RTO vs RPO, what&#39;s the difference?" title="RTO vs RPO, what&#39;s the difference?" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/2022/10/rto-vs-rpo-whats-the-difference-01-70x23.jpg"><noscript><img width="70" height="23" src="https://nolabnoparty.com/wp-content/uploads/2022/10/rto-vs-rpo-whats-the-difference-01-70x23.jpg" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="RTO vs RPO, what&#039;s the difference?" title="RTO vs RPO, what&#039;s the difference?" loading="lazy" /></noscript>						</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://nolabnoparty.com/en/rto-vs-rpo-whats-the-difference/" title="RTO vs RPO, what&#39;s the difference?">RTO vs RPO, what's the difference?</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>			</ul>
+</div>							</div>
+														<div class="f-widget f-widget-2">
+								<div id="tp_widget_recent_tweets-2" class="widget widget_tp_widget_recent_tweets"><h3 class="widget-title">Latest Tweets</h3>
+						<div class="tp_recent_tweets">
+							<ul><li><span>[Blog]  Nakivo: configure a virtual <a href="https://twitter.com/search?q=tape" title="Search #tape" target="_blank">#tape</a> infrastructure with StarWind <a href="https://twitter.com/search?q=VTL" title="Search #VTL" target="_blank">#VTL</a> <a href="https://t.co/zD6GdqHvwd" target="_blank">https://t.co/zD6GdqHvwd</a> <a href="https://twitter.com/search?q=ransomware" title="Search #ransomware" target="_blank">#ransomware</a>… <a href="https://t.co/OoBIHKULE2" target="_blank">https://t.co/OoBIHKULE2</a></span><a class="twitter_time" target="_blank" href="http://twitter.com/nolabnoparty/statuses/1600884161233002496">about 1 hour ago</a></li><li><span>[Blog]  Veeam v11: <a href="https://twitter.com/search?q=backup" title="Search #backup" target="_blank">#backup</a> to Google Cloud <a href="https://twitter.com/search?q=Storage" title="Search #Storage" target="_blank">#Storage</a> <a href="https://t.co/2pIdK2OKgQ" target="_blank">https://t.co/2pIdK2OKgQ</a> <a href="https://twitter.com/search?q=googlecloud" title="Search #googlecloud" target="_blank">#googlecloud</a> <a href="https://twitter.com/search?q=objectstorage" title="Search #objectstorage" target="_blank">#objectstorage</a> <a href="https://t.co/1bqhz9BAHv" target="_blank">https://t.co/1bqhz9BAHv</a></span><a class="twitter_time" target="_blank" href="http://twitter.com/nolabnoparty/statuses/1600853896368459777">3 hours ago</a></li><li><span>[Blog]  Nakivo v10.7 with <a href="https://twitter.com/search?q=backup" title="Search #backup" target="_blank">#backup</a> to Azure Blob and <a href="https://twitter.com/search?q=Teams" title="Search #Teams" target="_blank">#Teams</a> backup <a href="https://t.co/DIFE9jlemO" target="_blank">https://t.co/DIFE9jlemO</a> <a href="https://twitter.com/search?q=azureblob" title="Search #azureblob" target="_blank">#azureblob</a> <a href="https://t.co/q94dIkJ7Z3" target="_blank">https://t.co/q94dIkJ7Z3</a></span><a class="twitter_time" target="_blank" href="http://twitter.com/nolabnoparty/statuses/1600823575597957121">5 hours ago</a></li><li><span>[Blog]  Veeam: "Failed to acquire <a href="https://twitter.com/search?q=agent" title="Search #agent" target="_blank">#agent</a> managed by..." error <a href="https://t.co/ThbdT5WQwB" target="_blank">https://t.co/ThbdT5WQwB</a>… <a href="https://t.co/jNDW65WXY0" target="_blank">https://t.co/jNDW65WXY0</a></span><a class="twitter_time" target="_blank" href="http://twitter.com/nolabnoparty/statuses/1600793323970744321">7 hours ago</a></li>
+							</ul></div></div>							</div>
+														<div class="f-widget last f-widget-3">
+								<div id="text-5" class="widget widget_text"><h3 class="widget-title">About me</h3>			<div class="textwidget"><img alt="author" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20100%20100&#39;%3E%3C/svg%3E" class="avatar avatar-100 photo" height="100" width="100" data-lazy-src="http://1.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=100&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&amp;r=G"><noscript><img alt="author" src="http://1.gravatar.com/avatar/5845a7a6aba7f186fd21f34ef179e074?s=100&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&amp;r=G" class="avatar avatar-100 photo" height="100" width="100" ></noscript>
+
+My name is <b>Paolo Valsecchi</b> and I'm an IT Professional. 
+<br> 
+<br>
+This blog is mainly focused on virtualization, data protection, vdi technologies but also covers Active Directory and Networking.
+<br> 
+<br>
+You can find detailed how-to guides, tutorials and product reviews.
+<br>
+<br>
+<!--   linkedin profile  -->
+<a href="http://it.linkedin.com/in/paolovalsecchi">
+<img src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20160%2033&#39;%3E%3C/svg%3E" width="160" height="33" border="0" alt="View my profile on LinkedIn" data-lazy-src="https://nolabnoparty.com/wp-content/uploads/images/myprofile_linkedin.png"><noscript><img src="https://nolabnoparty.com/wp-content/uploads/images/myprofile_linkedin.png" width="160" height="33" border="0" alt="View my profile on LinkedIn"></noscript></a></div>
+		</div><div id="social-profile-icons-2" class="widget social-profile-icons"><h3 class="widget-title">Follow me</h3><div class="social-profile-icons"><ul class=""><li class="social-facebook"><a title="Facebook" href="https://www.facebook.com/nolabnoparty" target="_blank"><i class="fa fa-facebook"></i></a></li><li class="social-instagram"><a title="Instagram" href="https://instagram.com/nolabnoparty" target="_blank"><i class="fa fa-instagram"></i></a></li><li class="social-linkedin"><a title="LinkedIn" href="https://it.linkedin.com/in/paolovalsecchi" target="_blank"><i class="fa fa-linkedin"></i></a></li><li class="social-twitter"><a title="Twitter" href="https://twitter.com/nolabnoparty" target="_blank"><i class="fa fa-twitter"></i></a></li><li class="social-youtube"><a title="YouTube" href="https://www.youtube.com/@ittechpills" target="_blank"><i class="fa fa-youtube"></i></a></li><li class="social-rss"><a title="RSS" href="https://nolabnoparty.com/en/feed/" target="_blank"><i class="fa fa-rss"></i></a></li></ul></div></div>							</div>
+													</div>
+					</div><!--.first-footer-widgets-->
+								<div class="copyrights">
+					<div class="container">
+								<!--start copyrights-->
+		<div class="row" id="copyright-note">
+				<span><a href="https://nolabnoparty.com/en/" title=" Virtualization and beyond">Nolabnoparty</a> Copyright © 2022.</span>
+		<div class="to-top"><a href="https://nolabnoparty.com/en/advertise/">Advertise</a> | All rights reserved.&nbsp;</div>
+		</div>
+		<!--end copyrights-->
+							</div>
+				</div>
+						</footer><!--#site-footer-->
+		</div><!--.main-container-->
+		<!--start footer code-->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-17703976-1');
+</script>
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10845136; 
+var sc_invisible=1; 
+var sc_security="7da769b5"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/counter.js.download"></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="http://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/10845136/0/7da769b5/1/" alt="Web
+Analytics Made Easy - StatCounter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->	<!--end footer code-->
+	<style>progress.reading-progress::-webkit-progress-value {background-color: #8224e3;}progress.reading-progress::-moz-progress-bar {background-color: #8224e3;}</style><progress class="reading-progress" value="1015" max="21967"></progress>
+<div class="wpml-ls-statics-footer wpml-ls wpml-ls-legacy-list-horizontal" id="lang_sel_footer">
+	<ul><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/" class="wpml-ls-link">
+                                <img class="wpml-ls-flag iclflag" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="" data-lazy-src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"><noscript><img
+            class="wpml-ls-flag iclflag"
+            src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt=""
+            
+            
+    /></noscript><span class="wpml-ls-native icl_lang_sel_native">English</span></a>
+			</li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-it wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://nolabnoparty.com/veeam-v12-spostare-o-copiare-backup-con-veeamover/" class="wpml-ls-link">
+                                <img class="wpml-ls-flag iclflag" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="" data-lazy-src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png"><noscript><img
+            class="wpml-ls-flag iclflag"
+            src="https://nolabnoparty.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png"
+            alt=""
+            
+            
+    /></noscript><span class="wpml-ls-native icl_lang_sel_native" lang="it">Italiano</span></a>
+			</li></ul>
+</div>
+
+<script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/comment-reply.min.js.download" id="comment-reply-js"></script>
+<script type="text/javascript" id="customscript-js-extra">
+/* <![CDATA[ */
+var mts_customscript = {"responsive":"1","nav_menu":"secondary","lazy_load":"","lazy_load_comments":"1","desktop_sticky":"0","mobile_sticky":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" async="async" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/customscript.js.download" id="customscript-js"></script>
+<script type="text/javascript" async="async" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/jquery.magnific-popup.min.js.download" id="magnificPopup-js"></script>
+<script defer="" type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/akismet-frontend.js.download" id="akismet-frontend-js"></script>
+<script type="text/javascript" id="mts-time-to-read-js-extra">
+/* <![CDATA[ */
+var mts_ttr = {"progressbar_content_selector":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/wp-time-to-read.js.download" id="mts-time-to-read-js"></script>
+
+		<!-- Cookie Notice plugin v2.4.2 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-revoke-hidden cn-position-bottom cn-effect-fade cookie-notice-visible" aria-label="Cookie Notice" style="background-color: rgba(247,247,247,1);"><div class="cookie-notice-container" style="color: #2d2d2d;"><span id="cn-notice-text" class="cn-text-container">This site uses cookies from Google to deliver its services, to customize ads and for traffic analyzer. If you continue browsing we consider you accept the use of cookies.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="https://nolabnoparty.com/en/veeam-v12-move-or-copy-backups-with-veeamover/#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button cn-button-custom button" aria-label="Ok">Ok</a></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin --><script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/lazyload.min.js.download"></script><script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_2_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/ads(2).html" data-google-container-id="a!3" data-load-complete="true"></iframe></div></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-anchor-status="displayed" style="display: block; width: 100% !important; height: 129px !important; bottom: auto !important; clear: none !important; float: none !important; left: 0px; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1; overflow: visible !important; padding: 0px !important; position: fixed; right: auto !important; top: 0px; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647; background: rgb(250, 250, 250) !important;" data-ad-status="filled" data-anchor-shown="true"><div id="aswift_3_host" style="border: none !important; height: 124px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;" tabindex="0" title="Advertisement" aria-label="Advertisement"><iframe id="aswift_3" name="aswift_3" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/zrt_lookup.html" data-google-container-id="a!4" data-google-query-id="CMjavNnA6_sCFZrDFgUdsSEHMQ" data-load-complete="true"></iframe></div><div class="grippy-host" style="position: absolute !important; top: 124px !important; width: 100% !important;"></div></ins><iframe src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="./Veeam v12_ move or copy backups with VeeaMover • Nolabnoparty_files/zrt_lookup(1).html" style="display: none;"></iframe></html>
