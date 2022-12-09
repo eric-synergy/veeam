@@ -1,4 +1,4 @@
-v12 Features 
+V12 Features 
 =============
 
 New capabilities introduced with V12 include:
@@ -11,4 +11,4 @@ New capabilities introduced with V12 include:
 Key Highlights
 --------------
 
-.. image:: ../images/k12/v12_01.png
+.. image:: ../images/v12/v12_01.png
