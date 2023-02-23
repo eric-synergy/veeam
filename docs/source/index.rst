@@ -20,6 +20,7 @@ Welcome to Veeam's documentation!
    feature
    k10/index
    v12/index
+   ocp/index
 
 Indices and tables
 ==================
